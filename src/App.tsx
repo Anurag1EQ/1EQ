@@ -199,7 +199,7 @@ const GlobalStyles = () => (
 );
 
 // Navigation
-const Navigation = ({ activePage, setActivePage }) => {
+const Navigation = ({ activePage, setActivePage }: { activePage: string; setActivePage: (page: string) => void }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -242,8 +242,8 @@ const Navigation = ({ activePage, setActivePage }) => {
               fontFamily: "'DM Sans', sans-serif",
               transition: 'color 0.2s'
             }}
-            onMouseEnter={e => e.target.style.color = colors.textLight}
-            onMouseLeave={e => e.target.style.color = activePage === item.toLowerCase() ? colors.textLight : colors.textLightMuted}
+            onMouseEnter={e => (e.target as HTMLElement).style.color = colors.textLight}
+            onMouseLeave={e => (e.target as HTMLElement).style.color = activePage === item.toLowerCase() ? colors.textLight : colors.textLightMuted}
           >
             {item}
           </button>
@@ -301,7 +301,7 @@ const Navigation = ({ activePage, setActivePage }) => {
 };
 
 // Pill component
-const Pill = ({ children, color = colors.primary }) => (
+const Pill = ({ children, color = colors.primary }: { children: React.ReactNode; color?: string }) => (
   <div style={{
     display: 'inline-flex',
     alignItems: 'center',
@@ -320,7 +320,7 @@ const Pill = ({ children, color = colors.primary }) => (
 );
 
 // Hero Section (DARK)
-const Hero = ({ setActivePage }) => (
+const Hero = ({ setActivePage }: { setActivePage: (page: string) => void }) => (
   <section className="section-padding" style={{
     minHeight: '100vh',
     display: 'flex',
@@ -406,8 +406,8 @@ const Hero = ({ setActivePage }) => (
               cursor: 'pointer',
               transition: 'all 0.3s'
             }}
-            onMouseEnter={e => e.target.style.background = 'rgba(255,255,255,0.1)'}
-            onMouseLeave={e => e.target.style.background = 'transparent'}
+            onMouseEnter={e => (e.target as HTMLElement).style.background = 'rgba(255,255,255,0.1)'}
+            onMouseLeave={e => (e.target as HTMLElement).style.background = 'transparent'}
           >
             Our Services
           </button>
@@ -477,7 +477,7 @@ const TrustedBySection = () => (
       </p>
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '48px', flexWrap: 'wrap', opacity: 0.6 }}>
         {/* Replace these with actual client/partner logos */}
-        {['Partner 1', 'Partner 2', 'Partner 3', 'Partner 4', 'Partner 5'].map((partner, i) => (
+        {['Partner 1', 'Partner 2', 'Partner 3', 'Partner 4', 'Partner 5'].map((partner) => (
           <div
             key={partner}
             style={{
@@ -619,7 +619,7 @@ const ImpactSection = () => (
 );
 
 // Products Section (Homepage - featured + link to full page)
-const ProductsSection = ({ setActivePage }) => (
+const ProductsSection = ({ setActivePage }: { setActivePage: (page: string) => void }) => (
   <section style={{
     padding: '120px 48px',
     background: colors.bg,
@@ -858,7 +858,7 @@ const BenefitsSection = () => (
 );
 
 // Services Cards (Homepage teaser - links to full page)
-const ServicesSection = ({ setActivePage }) => (
+const ServicesSection = ({ setActivePage }: { setActivePage: (page: string) => void }) => (
   <section style={{
     padding: '120px 48px',
     background: colors.bgCard,
@@ -905,7 +905,7 @@ const ServicesSection = ({ setActivePage }) => (
 );
 
 // CTA Section (DARK)
-const CTASection = ({ setActivePage }) => (
+const CTASection = ({ setActivePage }: { setActivePage: (page: string) => void }) => (
   <section style={{
     padding: '120px 48px',
     background: `linear-gradient(180deg, ${colors.bgDarkAlt} 0%, ${colors.bgDark} 100%)`,
@@ -978,7 +978,7 @@ const CTASection = ({ setActivePage }) => (
 );
 
 // Footer (DARK)
-const Footer = ({ setActivePage }) => (
+const Footer = ({ setActivePage }: { setActivePage: (page: string) => void }) => (
   <footer className="section-padding" style={{
     background: colors.bgDark,
     borderTop: `1px solid ${colors.borderDark}`,
@@ -1021,8 +1021,8 @@ const Footer = ({ setActivePage }) => (
                   fontWeight: '600',
                   transition: 'background 0.2s'
                 }}
-                onMouseEnter={e => e.target.style.background = 'rgba(255,255,255,0.2)'}
-                onMouseLeave={e => e.target.style.background = 'rgba(255,255,255,0.1)'}
+                onMouseEnter={e => (e.target as HTMLElement).style.background = 'rgba(255,255,255,0.2)'}
+                onMouseLeave={e => (e.target as HTMLElement).style.background = 'rgba(255,255,255,0.1)'}
               >
                 {social.icon}
               </a>
@@ -1066,7 +1066,7 @@ const Footer = ({ setActivePage }) => (
 // ============ INNER PAGES ============
 
 // Products Page
-const ProductsPage = ({ setActivePage }) => (
+const ProductsPage = ({ setActivePage }: { setActivePage: (page: string) => void }) => (
   <section style={{ minHeight: '100vh', background: colors.bg, fontFamily: "'DM Sans', sans-serif" }}>
     {/* Dark Header */}
     <div className="page-header-padding" style={{ background: `linear-gradient(180deg, ${colors.bgDark} 0%, ${colors.bgDarkAlt} 100%)`, paddingBottom: '80px' }}>
@@ -1465,7 +1465,7 @@ const ProductsPage = ({ setActivePage }) => (
 );
 
 // Services Page
-const ServicesPageFull = ({ setActivePage }) => (
+const ServicesPageFull = ({ setActivePage }: { setActivePage: (page: string) => void }) => (
   <section style={{ minHeight: '100vh', background: colors.bg, fontFamily: "'DM Sans', sans-serif" }}>
     {/* Dark Header */}
     <div style={{ background: `linear-gradient(180deg, ${colors.bgDark} 0%, ${colors.bgDarkAlt} 100%)`, padding: '140px 48px 60px' }}>
@@ -1956,7 +1956,7 @@ const TechnologyPage = () => (
   </section>
 );
 
-const AboutPage = ({ setActivePage }) => (
+const AboutPage = ({ setActivePage }: { setActivePage: (page: string) => void }) => (
   <section style={{ minHeight: '100vh', background: colors.bg, fontFamily: "'DM Sans', sans-serif" }}>
     {/* Dark Header */}
     <div style={{ background: `linear-gradient(180deg, ${colors.bgDark} 0%, ${colors.bgDarkAlt} 100%)`, padding: '140px 48px 60px' }}>
@@ -2214,7 +2214,7 @@ const ContactPage = () => (
 );
 
 // Careers Page
-const CareersPage = ({ setActivePage }) => (
+const CareersPage = ({ setActivePage: _setActivePage }: { setActivePage: (page: string) => void }) => (
   <section style={{ minHeight: '100vh', background: colors.bg, fontFamily: "'DM Sans', sans-serif" }}>
     {/* Dark Header */}
     <div style={{ background: `linear-gradient(180deg, ${colors.bgDark} 0%, ${colors.bgDarkAlt} 100%)`, padding: '140px 48px 80px' }}>
@@ -2428,7 +2428,7 @@ const CareersPage = ({ setActivePage }) => (
 );
 
 // Homepage
-const HomePage = ({ setActivePage }) => (
+const HomePage = ({ setActivePage }: { setActivePage: (page: string) => void }) => (
   <>
     <Hero setActivePage={setActivePage} />
     <LogoMarquee />
@@ -2570,7 +2570,7 @@ const TermsPage = () => (
 );
 
 // Blog & Resources Page
-const BlogPage = ({ setActivePage }) => {
+const BlogPage = ({ setActivePage: _setActivePage }: { setActivePage: (page: string) => void }) => {
   const [activeTab, setActiveTab] = useState('blog');
 
   const blogPosts = [
