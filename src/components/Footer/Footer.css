@@ -1,0 +1,9 @@
+/* Footer component specific styles */
+
+.image-wrapper {
+    mask: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 35%);
+}
+
+footer {
+    background-color: rgb(10, 16, 21);
+}

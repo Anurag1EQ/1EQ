@@ -1,0 +1,5 @@
+/* Navigation component specific styles */
+/* Additional styles can be added here if needed */
+.nav-items-active.active {
+    color: var(--text-light);
+}
