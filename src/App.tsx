@@ -9,6 +9,8 @@ import { BlogPage } from './pages/blog/Blog';
 import { AboutPage } from './pages/about/About';
 import { CareersPage } from './pages/careers/Careers';
 import { ContactPage } from './pages/contact/Contact';
+import { PrivacyPage } from './pages/privacy/Privacy';
+import { TermsPage } from './pages/terms/Terms';
 
 // Component to scroll to top on route change
 const ScrollToTop = () => {
@@ -46,8 +48,8 @@ export default function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/careers" element={<CareersPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/privacy" element={<PlaceholderPage title="Privacy Policy" />} />
-          <Route path="/terms" element={<PlaceholderPage title="Terms of Service" />} />
+          <Route path="/privacy_policy" element={<PrivacyPage />} />
+          <Route path="/terms_of_service" element={<TermsPage />} />
         </Routes>
 
         <Footer />
