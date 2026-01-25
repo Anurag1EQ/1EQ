@@ -1,8 +1,5 @@
 import { useState } from 'react';
 
-// 1EQ Website V4 - AI Supply Template Style
-// Dark theme, modern layout, streamlined content
-
 const colors = {
   // Light sections
   bg: '#FFFFFF',
