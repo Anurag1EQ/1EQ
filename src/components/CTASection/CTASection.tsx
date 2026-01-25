@@ -1,10 +1,7 @@
 import './CTASection.css';
+import { Link } from 'react-router-dom';
 
-interface CTASectionProps {
-    setActivePage: (page: string) => void;
-}
-
-export const CTASection = ({ setActivePage }: CTASectionProps) => (
+export const CTASection = () => (
     <section className="py-[120px] px-12 bg-gradient-to-b from-[var(--color-bg-dark-alt)] to-[var(--color-bg-dark)] font-sans relative overflow-hidden">
         {/* Background gradient */}
         <div
@@ -24,18 +21,12 @@ export const CTASection = ({ setActivePage }: CTASectionProps) => (
                 We partner with organizations that share our mission to make education accessible for all.
             </p>
             <div className="flex gap-4 justify-center">
-                <button
-                    onClick={() => setActivePage('contact')}
-                    className="bg-[var(--color-text-light)] text-[var(--color-text)] border-none px-8 py-4 rounded-lg text-base font-semibold cursor-pointer"
-                >
+                <Link to='/contact' className="bg-[var(--color-text-light)] text-[var(--color-text)] border-none px-8 py-4 rounded-lg text-base font-semibold cursor-pointer">
                     Get in Touch
-                </button>
-                <button
-                    onClick={() => setActivePage('about')}
-                    className="bg-transparent text-[var(--color-text-light)] border border-[var(--color-border-dark)] px-8 py-4 rounded-lg text-base font-medium cursor-pointer"
-                >
+                </Link>
+                <Link to='/about' className="bg-transparent text-[var(--color-text-light)] border border-[var(--color-border-dark)] px-8 py-4 rounded-lg text-base font-medium cursor-pointer">
                     About Us
-                </button>
+                </Link>
             </div>
         </div>
     </section>

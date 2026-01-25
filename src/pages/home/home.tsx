@@ -15,18 +15,18 @@ export const HomePage = () => {
     const handleNavigation = (page: string) => {
         navigate(`/${page}`);
         window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
+    }
 
     return (
         <>
             <HomeHero />
-            <TrustedBySection />
-            <ImpactSection />
-            <ProductsSection setActivePage={handleNavigation} />
+            {/* <TrustedBySection /> */}
+            {/* <ImpactSection /> */}
+            <ProductsSection />
             <BenefitsSection />
-            <ServicesSection setActivePage={handleNavigation} />
+            <ServicesSection />
             <TestimonialsSection />
-            <CTASection setActivePage={handleNavigation} />
+            <CTASection />
         </>
     );
 };

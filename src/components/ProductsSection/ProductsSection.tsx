@@ -1,11 +1,8 @@
 import './ProductsSection.css';
 import { Pill } from '../Pill/Pill';
+import { Link } from 'react-router-dom';
 
-interface ProductsSectionProps {
-    setActivePage: (page: string) => void;
-}
-
-export const ProductsSection = ({ setActivePage }: ProductsSectionProps) => (
+export const ProductsSection = () => (
     <section className="py-[120px] px-12 bg-[var(--color-bg)] font-sans">
         <div className="max-w-[1200px] mx-auto">
             <div className="text-center mb-[60px]">
@@ -38,12 +35,11 @@ export const ProductsSection = ({ setActivePage }: ProductsSectionProps) => (
                             </div>
                         ))}
                     </div>
-                    <button
-                        onClick={() => setActivePage('products')}
-                        className="bg-[var(--color-primary)] text-[var(--color-text)] border-none px-6 py-3 rounded-lg text-sm font-semibold cursor-pointer"
+                    <Link to='/products'
+                        className="bg-[var(--color-primary)] text-[var(--text-light)] border-none px-6 py-3 rounded-lg text-sm font-semibold cursor-pointer"
                     >
                         Learn More →
-                    </button>
+                    </Link>
                 </div>
 
                 <div className="rounded-2xl p-8 min-h-[320px] flex items-center justify-center border border-[var(--color-border)] relative overflow-hidden" style={{ background: 'linear-gradient(135deg, var(--color-primary)10 0%, var(--color-bg-hover) 100%)' }}>
@@ -90,12 +86,9 @@ export const ProductsSection = ({ setActivePage }: ProductsSectionProps) => (
             </div>
 
             <div className="text-center">
-                <button
-                    onClick={() => setActivePage('products')}
-                    className="bg-transparent text-[var(--color-text)] border border-[var(--color-border)] px-7 py-3.5 rounded-lg text-[15px] font-semibold cursor-pointer"
-                >
+                <Link to='/products' className="bg-transparent text-[var(--color-text)] border border-[var(--color-border)] px-7 py-3.5 rounded-lg text-[15px] font-semibold cursor-pointer" >
                     View All Products →
-                </button>
+                </Link>
             </div>
         </div>
     </section>

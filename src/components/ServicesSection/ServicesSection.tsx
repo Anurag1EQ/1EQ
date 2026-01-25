@@ -1,11 +1,8 @@
 import './ServicesSection.css';
 import { Pill } from '../Pill/Pill';
+import { Link } from 'react-router-dom';
 
-interface ServicesSectionProps {
-    setActivePage: (page: string) => void;
-}
-
-export const ServicesSection = ({ setActivePage }: ServicesSectionProps) => (
+export const ServicesSection = () => (
     <section className="py-[120px] px-12 bg-[var(--color-bg-card)] font-sans">
         <div className="max-w-[1000px] mx-auto text-center">
             <Pill color="var(--color-purple)">Services</Pill>
@@ -22,12 +19,9 @@ export const ServicesSection = ({ setActivePage }: ServicesSectionProps) => (
                 ))}
             </div>
 
-            <button
-                onClick={() => setActivePage('services')}
-                className="bg-[var(--color-text)] text-[var(--color-text-light)] border-none px-8 py-4 rounded-lg text-[15px] font-semibold cursor-pointer"
-            >
+            <Link to='/services' className="bg-[var(--color-text)] text-[var(--color-text-light)] border-none px-8 py-4 rounded-lg text-[15px] font-semibold cursor-pointer">
                 View All Services →
-            </button>
+            </Link>
         </div>
     </section>
 );
