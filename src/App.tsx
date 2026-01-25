@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { Footer } from './components/Footer/Footer';
-import { HomePage } from './pages/home/Home';
+import { HomePage } from './pages/home/homePage';
 import { ProductsPage } from './pages/products/Products';
 import { ServicesPage } from './pages/services/Services';
 import { TechnologyPage } from './pages/technology/Technology';

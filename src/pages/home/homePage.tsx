@@ -1,4 +1,4 @@
-import './Home.css';
+import './homePage.css';
 import { HomeHero } from '../../components/Hero/Hero';
 // import { TrustedBySection } from '../../components/TrustedBySection/TrustedBySection';
 // import { ImpactSection } from '../../components/ImpactSection/ImpactSection';
