@@ -41,6 +41,24 @@ export const HomeHero = () => (
     </section>
 );
 
+export const ProductsHero = () => (
+    <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
+        <Navigation />
+
+        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+            <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
+                <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
+                    <p className='text-[16px] text-[var(--text-light)] text-center'>Our Products</p>
+                    <p className='text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Technology built for how India learns</p>
+                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>From AI-powered exam prep to accessible learning tools — products designed for real Indian learners.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+);
 export const ServicesHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
