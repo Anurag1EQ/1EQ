@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 export const Footer = () => {
 

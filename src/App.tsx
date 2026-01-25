@@ -12,7 +12,6 @@ import { ContactPage } from './pages/contact/Contact';
 import { PrivacyPage } from './pages/privacy/Privacy';
 import { TermsPage } from './pages/terms/Terms';
 
-// Component to scroll to top on route change
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -22,18 +21,6 @@ const ScrollToTop = () => {
   return null;
 };
 
-// Placeholder components for other pages until we extract them
-const PlaceholderPage = ({ title }: { title: string }) => (
-  <div className="min-h-screen flex items-center justify-center bg-[var(--color-bg)] pt-24">
-    <div className="text-center">
-      <h1 className="text-4xl font-bold text-[var(--color-text)] mb-4">{title}</h1>
-      <p className="text-[var(--color-text-muted)]">This page is being extracted from OldApp.tsx</p>
-      <p className="text-sm text-[var(--color-text-dim)] mt-2">Check back soon!</p>
-    </div>
-  </div>
-);
-
-// Main App with React Router
 export default function App() {
   return (
     <BrowserRouter>
