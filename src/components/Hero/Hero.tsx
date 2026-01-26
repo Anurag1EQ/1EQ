@@ -6,7 +6,7 @@ import { Navigation } from '../Navigation/Navigation';
 export const HomeHero = () => (
     <section className=' h-screen w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     <p className='text-[16px] text-[var(--text-light)] text-center'>EdTech Product Studio • Since 2021</p>
@@ -45,7 +45,7 @@ export const ProductsHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     <p className='text-[16px] text-[var(--text-light)] text-center'>Our Products</p>
@@ -63,7 +63,7 @@ export const ServicesHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     <p className='text-[16px] text-[var(--text-light)] text-center'>Our Services</p>
@@ -82,7 +82,7 @@ export const TechonologyHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     <p className='text-[16px] text-[var(--text-light)] text-center'>Technology</p>
@@ -99,7 +99,7 @@ export const BlogHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     <p className='text-[16px] text-[var(--text-light)] text-center'>Blog & Resources</p>
@@ -117,7 +117,7 @@ export const AboutHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     <p className='text-[16px] text-[var(--text-light)] text-center'>About Us</p>
@@ -135,7 +135,7 @@ export const CareersHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     <p className='text-[16px] text-[var(--text-light)] text-center'>We're Hiring</p>
@@ -153,7 +153,7 @@ export const ContactHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     <p className='text-[16px] text-[var(--text-light)] text-center'>Contact</p>
@@ -170,7 +170,7 @@ export const PrivacyHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     {/* <p className='text-[16px] text-[var(--text-light)] text-center'>Contact</p> */}
@@ -188,7 +188,7 @@ export const TermsHero = () => (
     <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
-        <div className='bg-[url(/images/background-img.avif)] mx-auto border-l-[1px] border-r-[1px] border-[var(--border-light)] h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[40px]'>
                 <div className='flex flex-col gap-[24px] items-center justify-center max-w-[580px]'>
                     {/* <p className='text-[16px] text-[var(--text-light)] text-center'>Contact</p> */}

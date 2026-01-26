@@ -2,11 +2,11 @@ import './TestimonialsSection.css';
 import { Pill } from '../Pill/Pill';
 
 export const TestimonialsSection = () => (
-    <section className="py-[100px] px-12 bg-[var(--color-bg-card)] font-sans">
-        <div className="max-w-[1200px] mx-auto">
+    <section className=" w-full ">
+        <div className="global-width min-h-[600px] global-border-page  w-full px-6 py-10 flex flex-col justify-center mx-auto">
             <div className="text-center mb-[60px]">
                 <Pill color="var(--color-accent)">Testimonials</Pill>
-                <h2 className="text-[42px] font-semibold text-[var(--color-text)] mt-6 font-serif">
+                <h2 className="text-[42px] font-semibold text-[var(--theme-text-dark)] mt-6 ">
                     What people are saying
                 </h2>
             </div>
@@ -34,20 +34,20 @@ export const TestimonialsSection = () => (
                 ].map((testimonial, i) => (
                     <div
                         key={i}
-                        className="bg-[var(--color-bg)] rounded-[20px] p-8 border border-[var(--color-border)] flex flex-col"
+                        className="bg-[var(--bg-card)] rounded-[6px] p-8 shadow-md flex flex-col"
                     >
-                        <div className="text-[32px] text-[var(--color-primary)] mb-4 leading-none">"</div>
-                        <p className="text-base text-[var(--color-text-muted)] leading-relaxed mb-6 flex-1">
+                        <div className="text-[32px] text-[var(--theme-text-dark)] mb-4 leading-none">"</div>
+                        <p className="text-base text-[var(--theme-text-dark)] leading-relaxed mb-6 flex-1">
                             {testimonial.quote}
                         </p>
 
                         <div className="flex items-center gap-3">
-                            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[var(--color-primary)]/20 to-[var(--color-accent)]/20 flex items-center justify-center text-base font-semibold text-[var(--color-primary)]">
+                            <div className="w-12 h-12 rounded-full  flex items-center justify-center text-base font-semibold text-[var(--theme-text-dark)]">
                                 {testimonial.name.split(' ').map(n => n[0]).join('')}
                             </div>
                             <div>
-                                <p className="text-[15px] font-semibold text-[var(--color-text)] mb-0.5">{testimonial.name}</p>
-                                <p className="text-[13px] text-[var(--color-text-dim)]">{testimonial.role} • {testimonial.location}</p>
+                                <p className="text-[15px] font-semibold text-[var(--theme-text-dark)] mb-0.5">{testimonial.name}</p>
+                                <p className="text-[13px] text-[var(--theme-text-medium)]">{testimonial.role} • {testimonial.location}</p>
                             </div>
                         </div>
                     </div>

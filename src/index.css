@@ -8,12 +8,12 @@
 :root {
   /* Light sections */
   --color-bg: #FFFFFF;
-  --color-bg-card: #F8FAFC;
-  --color-bg-hover: #F1F5F9;
+  --bg-card: #f7f8fa;
+  --bg-hover: #f1f5f9;
 
   /* Dark sections (hero, CTA, footer) */
-  --color-bg-dark: #0a1628;
-  --color-bg-dark-alt: #0d1f35;
+  --theme-black: #0a1013;
+  --theme-black-alt: #0d1f35;
 
   /* Brand colors */
   --color-primary: #E63946;
@@ -22,9 +22,9 @@
   --color-purple: #7C3AED;
 
   /* Light section text */
-  --color-text: #0f172a;
-  --color-text-muted: #475569;
-  --color-text-dim: #64748b;
+  --theme-text-dark: #0a1014;
+  --theme-text-medium: #3d4145;
+  --theme-text-light: #64748b;
   --text-dark: #0a1014;
   --text-medium: #cecfd0;
   --text-light: white;
@@ -527,6 +527,16 @@ body {
 
 .global-width {
   max-width: 1400px;
+}
+
+.global-border {
+  border-left: 1px solid var(--border-light);
+  border-right: 1px solid var(--border-light);
+}
+
+.global-border-page {
+  border-left: 1px solid #f5efea;
+  border-right: 1px solid #f5efea;
 }
 
 .global-height {

@@ -2,11 +2,11 @@ import './BenefitsSection.css';
 import { Pill } from '../Pill/Pill';
 
 export const BenefitsSection = () => (
-    <section className="py-[120px] px-12 bg-[var(--color-bg)] font-sans">
-        <div className="max-w-[1200px] mx-auto">
+    <section className="w-full">
+        <div className="global-width global-border-page mx-auto px-6 py-[60px]">
             <div className="text-center mb-[60px]">
                 <Pill color="var(--color-success)">Why 1EQ</Pill>
-                <h2 className="text-5xl font-bold text-[var(--color-text)] mt-6 font-serif">
+                <h2 className="text-5xl font-bold text-[var(--theme-text-dark)] mt-6 ">
                     We're not a generic dev shop
                 </h2>
             </div>
@@ -22,13 +22,13 @@ export const BenefitsSection = () => (
                 ].map(item => (
                     <div
                         key={item.title}
-                        className="hover-lift bg-[var(--color-bg-card)] rounded-[20px] p-8 border border-[var(--color-border)]"
+                        className=" bg-[var(--bg-card)] rounded-[5px] p-8 shadow-md"
                     >
                         <div className="w-14 h-14 rounded-[14px] bg-[var(--color-bg-hover)] flex items-center justify-center text-2xl mb-5">
                             {item.icon}
                         </div>
-                        <h4 className="text-xl font-semibold text-[var(--color-text)] mb-2">{item.title}</h4>
-                        <p className="text-sm text-[var(--color-text-muted)] leading-relaxed">{item.desc}</p>
+                        <h4 className="text-xl font-semibold text-[var(--theme-text-dark)] mb-2">{item.title}</h4>
+                        <p className="text-sm text-[var(--theme-text-medium)] leading-relaxed">{item.desc}</p>
                     </div>
                 ))}
             </div>
