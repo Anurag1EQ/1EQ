@@ -16,7 +16,7 @@
   --theme-black-alt: #0d1f35;
 
   /* Brand colors */
-  --color-primary: #E63946;
+  --color-primary: #ec424d;
   --color-accent: #2563EB;
   --color-success: #059669;
   --color-purple: #7C3AED;
@@ -38,7 +38,7 @@
   --color-border: #E2E8F0;
   --color-border-light: #D1D5DB;
   --border-medium: #282e32;
-  --border-light: #132028;
+  --border-light: #262f37;
   --color-border-dark: rgba(255, 255, 255, 0.1);
 
   /* button color */
@@ -549,4 +549,9 @@ body {
 
 .component-hero {
   min-height: 600px;
+}
+
+.global-padding {
+  padding-left: 110px;
+  padding-right: 110px;
 }

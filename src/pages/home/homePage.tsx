@@ -6,7 +6,7 @@ import { ProductsSection } from '../../components/ProductsSection/ProductsSectio
 import { BenefitsSection } from '../../components/BenefitsSection/BenefitsSection';
 import { ServicesSection } from '../../components/ServicesSection/ServicesSection';
 import { TestimonialsSection } from '../../components/TestimonialsSection/TestimonialsSection';
-import { CTASection } from '../../components/CTASection/CTASection';
+// import { CTASection } from '../../components/CTASection/CTASection';
 
 export const HomePage = () => {
     return (
@@ -18,7 +18,7 @@ export const HomePage = () => {
             <BenefitsSection />
             <ServicesSection />
             <TestimonialsSection />
-            <CTASection />
+            {/* <CTASection /> */}
         </>
     );
 };

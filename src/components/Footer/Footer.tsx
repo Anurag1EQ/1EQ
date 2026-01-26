@@ -82,6 +82,8 @@ export const Footer = () => {
                             <div className="flex gap-[15px]">
                                 <Link to="/privacy_policy" className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">Privacy Policy</Link>
                                 <Link to="/terms_of_service" className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">Terms of Service</Link>
+                                <Link to="/refund_policy" className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">Refund Policy</Link>
+                                <Link to="/shipping_policy" className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">Shipping Policy</Link>
                             </div>
                         </div>
                     </div>

@@ -1,13 +1,12 @@
 import './ProductsSection.css';
-import { Pill } from '../Pill/Pill';
 import { Link } from 'react-router-dom';
 
 export const ProductsSection = () => (
     <section className="  bg-[var(--color-bg)] ">
-        <div className="global-width px-6 py-10 global-border-page w-full mx-auto">
+        <div className="global-width global-padding py-10 global-border-page w-full mx-auto">
             <div className="text-center mb-[60px]">
-                <Pill>Our Products</Pill>
-                <h2 className="text-5xl font-bold text-[var(--thene-black)] mt-6 ">
+                <p className='text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-[0.05em]'>Our Products</p>
+                <h2 className="text-[51px] font-[400] font-lt-remark text-center text-[var(--thene-black)] mt-6 ">
                     Technology built for how India learns
                 </h2>
             </div>
@@ -25,10 +24,10 @@ export const ProductsSection = () => (
                         </svg>
                     </span>
 
-                    <p className="text-lg text-[var(--theme-text-medium)] leading-relaxed mb-6">
+                    <p className="text-[16px] text-[var(--theme-text-medium)] leading-relaxed mb-6">
                         AI-powered precision learning for competitive exam aspirants. Unlike traditional platforms, 1PYQ identifies knowledge gaps and focuses only on what you need to learn.
                     </p>
-                    <div className="flex gap-8 mb-6">
+                    <div className="flex gap-8 mb-9">
                         {[
                             { label: 'Platforms', value: 'Web, iOS, Android' },
                             { label: 'Pricing', value: '₹0 – ₹500/year' },
@@ -40,12 +39,21 @@ export const ProductsSection = () => (
                             </div>
                         ))}
                     </div>
-                    <Link to="/products" className='px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Learn More →</Link>
+                    <Link to="/products" className='px-[18px]  hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Learn More →</Link>
                 </div>
 
                 <div className=" p-8 shadow-md rounded-[6px] min-h-[320px] bg-white flex items-center justify-center  relative overflow-hidden" >
 
-                    <div className="w-[200px] h-[400px] bg-[var(--color-bg)] rounded-[32px] border-8 border-[var(--theme-text-dark)] p-2 shadow-lg relative">
+                    <div className="w-[220px] flex items-center justify-center"
+                        style={{ filter: 'drop-shadow(#afafaf96 0 0 20px);' }}>
+                        <img
+                            src="/images/1pyq-home-screenshot.svg"
+                            className="h-full w-full object-contain"
+                            alt=""
+                        />
+                    </div>
+
+                    {/* <div className="w-[200px] h-[400px] bg-[var(--color-bg)] rounded-[32px] border-8 border-[var(--theme-text-dark)] p-2 shadow-lg relative">
 
                         <div className="w-20 h-6 bg-[var(--color-text)] rounded-xl mx-auto mb-4" />
 
@@ -61,7 +69,7 @@ export const ProductsSection = () => (
                         <p className="absolute bottom-5 left-1/2 -translate-x-1/2 text-[9px] text-[var(--color-text-dim)] text-center w-full">
                             Replace with app screenshot
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
@@ -74,7 +82,7 @@ export const ProductsSection = () => (
                 ].map(item => (
                     <span
                         key={item.name}
-                        className="px-5 py-2.5 rounded-full bg-[var(--bg-card)] text-[var(--theme-text-medium)] text-sm font-medium"
+                        className="px-5 py-2.5 rounded-full bg-[var(--bg-card)] text-[var(--theme-text-medium)] text-[16px] font-medium"
                     >{item.name}</span>
                 ))}
             </div>

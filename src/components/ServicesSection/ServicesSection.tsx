@@ -1,15 +1,15 @@
 import './ServicesSection.css';
-import { Pill } from '../Pill/Pill';
+
 import { Link } from 'react-router-dom';
 
 export const ServicesSection = () => (
     <section className=" w-full   ">
         <div className="global-width flex flex-col justify-center items-center w-full h-full min-h-[600px] global-border-page  mx-auto text-center ">
-            <Pill color="var(--color-purple)">Services</Pill>
-            <h2 className="text-5xl font-bold text-[var(--theme-text-dark)] mt-6 mb-5 ">
+            <p className='text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-[0.05em]'>Services</p>
+            <h2 className="text-[51px] font-[400] font-lt-remark text-center text-[var(--thene-black)] mt-6 mb-5 ">
                 How we can help
             </h2>
-            <p className="text-lg text-[var(--theme-text-medium)] mb-10 max-w-[600px] mx-auto">
+            <p className="text-[16px] text-[var(--theme-text-medium)] mb-10 max-w-[600px] mx-auto">
                 Custom development, white-label platforms, tech consulting, and accessibility solutions — all built by our in-house team.
             </p>
 

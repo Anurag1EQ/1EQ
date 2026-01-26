@@ -1,58 +1,95 @@
 import './TestimonialsSection.css';
-import { Pill } from '../Pill/Pill';
+
+const users = [
+    {
+        profileUrl: "/images/client-testimonial.png",
+        description:
+            "“CS Ninja has completely changed the way I prepare for CS exams. The structured content, clear explanations, and smart study flow make even complex topics easy to understand. The app keeps me consistent and confident in my preparation.”",
+        name: "Lauren Meyers",
+        role: "Growth Strategist",
+        accuracy: "97%",
+        message: "Boost in efficiency"
+    },
+    {
+        profileUrl: "/images/1pyq-testimonial-background.svg",
+        description:
+            "“1PYQ is not just another SSC app—it’s a complete, distraction-free preparation system. With real PYQs, structured study groups, mock tests, grammar and vocabulary practice, typing drills, and multilingual current affairs, the app covers everything an SSC aspirant needs. The transparent ₹10 pricing model and focus on discipline make it one of the most reliable SSC preparation platforms available today.”",
+        name: "Lauren Meyers",
+        role: "Growth Strategist",
+        accuracy: "97%",
+        message: "Boost in efficiency"
+    },
+    {
+        profileUrl: "/images/Mmp-testimonial-background.svg",
+        description:
+            "“Managing attendance for our team became much easier after using Mark My Presence. The app keeps everything organized and transparent, reducing manual effort and errors. It has significantly improved our attendance tracking process.”",
+        name: "Lauren Meyers",
+        role: "Growth Strategist",
+        accuracy: "97%",
+        message: "Boost in efficiency"
+    }
+];
 
 export const TestimonialsSection = () => (
-    <section className=" w-full ">
-        <div className="global-width min-h-[600px] global-border-page  w-full px-6 py-10 flex flex-col justify-center mx-auto">
+    <section className="w-full">
+        <div className="global-width min-h-[600px] global-border-page global-padding w-full py-10 flex flex-col justify-center mx-auto">
+
+            {/* Heading */}
             <div className="text-center mb-[60px]">
-                <Pill color="var(--color-accent)">Testimonials</Pill>
-                <h2 className="text-[42px] font-semibold text-[var(--theme-text-dark)] mt-6 ">
+                <p className="text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-wide">
+                    Testimonials
+                </p>
+                <h2 className="text-[51px] font-[400] font-lt-remark text-[var(--theme-black)] mt-6">
                     What people are saying
                 </h2>
             </div>
 
-            <div className="grid-3 gap-6">
-                {[
-                    {
-                        quote: "1PYQ transformed how I prepare for my exams. The AI knows exactly where I'm weak and helps me focus my time better.",
-                        name: "Student Name",
-                        role: "UPSC Aspirant",
-                        location: "Lucknow"
-                    },
-                    {
-                        quote: "As a non-tech founder, working with 1EQ was refreshing. They understood our mission and delivered a platform our teachers actually use.",
-                        name: "Partner Name",
-                        role: "Founder, Coaching Institute",
-                        location: "Jaipur"
-                    },
-                    {
-                        quote: "The accessibility features in 1ISL Challenge are incredible. Finally, technology that doesn't leave the deaf community behind.",
-                        name: "User Name",
-                        role: "Accessibility Advocate",
-                        location: "Mumbai"
-                    }
-                ].map((testimonial, i) => (
+            {/* Main testimonial */}
+            <div className="w-full flex flex-col gap-4 mt-3">
+                {users.map((elem, index) => (
                     <div
-                        key={i}
-                        className="bg-[var(--bg-card)] rounded-[6px] p-8 shadow-md flex flex-col"
+                        key={index}
+                        className="bg-[var(--bg-card)] w-full flex h-[481px] p-[4px]"
                     >
-                        <div className="text-[32px] text-[var(--theme-text-dark)] mb-4 leading-none">"</div>
-                        <p className="text-base text-[var(--theme-text-dark)] leading-relaxed mb-6 flex-1">
-                            {testimonial.quote}
-                        </p>
+                        {/* Image */}
+                        <div className="shrink-0 w-[349px] h-full overflow-hidden border flex items-center justify-center">
+                            <img
+                                src={elem.profileUrl}
+                                className="h-full w-full object-cover"
+                                alt={elem.name}
+                            />
+                        </div>
 
-                        <div className="flex items-center gap-3">
-                            <div className="w-12 h-12 rounded-full  flex items-center justify-center text-base font-semibold text-[var(--theme-text-dark)]">
-                                {testimonial.name.split(' ').map(n => n[0]).join('')}
-                            </div>
-                            <div>
-                                <p className="text-[15px] font-semibold text-[var(--theme-text-dark)] mb-0.5">{testimonial.name}</p>
-                                <p className="text-[13px] text-[var(--theme-text-medium)]">{testimonial.role} • {testimonial.location}</p>
+                        {/* Content */}
+                        <div className="flex flex-col justify-between p-5 px-7">
+                            <p className="text-[var(--theme-text-dark)] text-[19px] font-[300] leading-relaxed">
+                                {elem.description}
+                            </p>
+
+                            <div className="w-full flex justify-between items-end">
+                                <div className="flex flex-col">
+                                    <p className="text-[var(--theme-text-dark)] font-[400] text-[16px]">
+                                        {elem.name}
+                                    </p>
+                                    <p className="text-[var(--theme-text-medium)] font-[400] text-[14px]">
+                                        {elem.role}
+                                    </p>
+                                </div>
+
+                                <div className="flex flex-col text-right">
+                                    <p className="text-[var(--theme-text-dark)] font-[400] text-[60px] leading-[1.1]">
+                                        {elem.accuracy}
+                                    </p>
+                                    <p className="text-[var(--theme-text-medium)] font-[400] text-[14px]">
+                                        {elem.message}
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 ))}
             </div>
+
         </div>
     </section>
 );
