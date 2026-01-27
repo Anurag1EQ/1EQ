@@ -12,7 +12,7 @@ export const ProductsPage = () => {
             <section className="min-h-screen bg-white global-width py-10  global-border-page mx-auto global-padding">
 
                 <div className="w-full mx-auto mb-10 py-7">
-                    <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Which product is right for you?</h2>
+                    <h2 className="text-[51px] font-lt-remark font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Which product is right for you?</h2>
                     <div className="grid-3 gap-4">
                         {[
                             { question: "Preparing for competitive exams?", answer: "1PYQ", color: "text-[#E63946]" },
@@ -385,7 +385,7 @@ export const ProductsPage = () => {
 
                         {/* Available languages */}
                         <div className=" mb-10 flex flex-col gap-3">
-                            <h3 className="text-[18px] font-[500] text-[var(--theme-text-dark)] ">Available in 16 Indian Languages</h3>
+                            <h3 className="text-[18px] font-[500] text-[var(--theme-text-dark)] ">Contact Available in 16 Indian Languages</h3>
                             <div className="flex gap-3 flex-wrap">
                                 {['Hindi', 'English', 'Tamil', 'Telugu', 'Kannada', 'Malayalam', 'Bengali', 'Marathi', 'Gujarati', 'Punjabi', 'Odia', 'Assamese', 'Urdu', 'Maithili', 'Sanskrit', 'Nepali'].map(exam => (
                                     <span key={exam} className="px-4 py-2 bg-[var(--bg-card)] rounded-full text-[14px] text-[var(--theme-text-medium)] ">{exam}</span>
