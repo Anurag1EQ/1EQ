@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,7 +7,7 @@
 /* CSS Variables for Colors */
 :root {
   /* Light sections */
-  --color-bg: #FFFFFF;
+  --color-bg: #ffffff;
   --bg-card: #f7f8fa;
   --bg-hover: #f1f5f9;
 
@@ -17,9 +17,9 @@
 
   /* Brand colors */
   --color-primary: #ec424d;
-  --color-accent: #2563EB;
+  --color-accent: #2563eb;
   --color-success: #059669;
-  --color-purple: #7C3AED;
+  --color-purple: #7c3aed;
 
   /* Light section text */
   --theme-text-dark: #0a1014;
@@ -30,13 +30,13 @@
   --text-light: white;
 
   /* Dark section text */
-  --color-text-light: #FFFFFF;
+  --color-text-light: #ffffff;
   --color-text-light-muted: rgba(255, 255, 255, 0.7);
   --color-text-light-dim: rgba(255, 255, 255, 0.5);
 
   /* Borders */
-  --color-border: #E2E8F0;
-  --color-border-light: #D1D5DB;
+  --color-border: #e2e8f0;
+  --color-border-light: #d1d5db;
   --border-medium: #282e32;
   --border-light: #262f37;
   --color-border-dark: rgba(255, 255, 255, 0.1);
@@ -52,29 +52,28 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 @font-face {
-  font-family: 'Lt remark';
-  src: url('/fonts/ltRemark/LtRemark-Regular.otf');
+  font-family: "Lt remark";
+  src: url("/fonts/ltRemark/LtRemark-Regular.otf");
 }
 
 .font-lt-remark {
-  font-family: 'Lt remark';
+  font-family: "Lt remark";
 }
 
 .font-inter {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
-
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* Animations */
@@ -91,7 +90,6 @@ body {
 }
 
 @keyframes float {
-
   0%,
   100% {
     transform: translateY(0);
@@ -102,9 +100,7 @@ body {
   }
 }
 
-
 @keyframes pulse {
-
   0%,
   100% {
     opacity: 1;
@@ -133,7 +129,9 @@ body {
 }
 
 .hover-lift {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .hover-lift:hover {
@@ -144,8 +142,6 @@ body {
 .btn-glow:hover {
   box-shadow: 0 0 30px rgba(230, 57, 70, 0.25);
 }
-
-
 
 /* Mobile responsive */
 .nav-links {
@@ -413,7 +409,7 @@ body {
     justify-content: center;
   }
 
-  .stats-row>div {
+  .stats-row > div {
     flex: 0 0 calc(50% - 12px);
     text-align: center;
   }
@@ -455,7 +451,7 @@ body {
     text-align: left;
   }
 
-  .hiring-step>div:first-child {
+  .hiring-step > div:first-child {
     margin: 0;
   }
 
@@ -510,7 +506,7 @@ body {
     font-size: 28px;
   }
 
-  .stats-row>div {
+  .stats-row > div {
     flex: 0 0 100%;
   }
 
@@ -523,7 +519,6 @@ body {
     text-align: center;
   }
 }
-
 
 .global-width {
   max-width: 1400px;
@@ -554,4 +549,17 @@ body {
 .global-padding {
   padding-left: 110px;
   padding-right: 110px;
+}
+
+.heading-text {
+  font-weight: 700;
+  color: var(--theme-text-medium);
+  line-height: 1.4;
+}
+
+.content-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--theme-text-medium);
 }
