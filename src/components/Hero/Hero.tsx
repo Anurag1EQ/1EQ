@@ -198,6 +198,37 @@ export const TermsHero = () => (
                 </div>
             </div>
         </div>
+    </section>)
+export const ShippingHero = () => (
+    <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
+        <Navigation />
+
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+            <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
+                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
+                    {/* <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Contact</p> */}
+                    <p className='text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Shipping Policy</p>
+                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Last updated: January 2026</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+)
+export const RefundHero = () => (
+    <section className='h-[74vh] w-full bg-[#0a1015] component-hero relative'>
+        <Navigation />
+
+        <div className='bg-[url(/images/background-img.avif)] mx-auto global-border   h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+            <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
+                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
+                    {/* <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Contact</p> */}
+                    <p className='text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Refund Policy</p>
+                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Last updated: January 2026</p>
+
+                </div>
+            </div>
+        </div>
     </section>
 
 );

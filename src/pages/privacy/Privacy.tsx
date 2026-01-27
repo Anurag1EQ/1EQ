@@ -5,52 +5,285 @@ export const PrivacyPage = () => {
     return (
         <>
             <PrivacyHero />
-            <section className="min-h-screen bg-white font-['DM_Sans']">
-                <div className="content-padding">
-                    <div className="max-w-[800px] mx-auto text-base text-slate-600 leading-[1.8]">
+            <section className="min-h-screen bg-white font-sans">
+                <div className="flex flex-col items-center justify-start w-full">
+                    <div className="global-width global-padding flex flex-col items-center   global-border-page w-full mx-auto">
+                        <div className="max-w-[700px] w-full  flex flex-col gap-[60px]" style={{padding:'44px 0 80px'}}>
 
-                        <h2 className="text-2xl font-semibold text-slate-900 mb-4 mt-10">1. Information We Collect</h2>
-                        <p className="mb-4">We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support. This may include:</p>
-                        <ul className="ml-6 mb-6 list-disc">
-                            <li className="mb-2">Name and email address</li>
-                            <li className="mb-2">Phone number (optional)</li>
-                            <li className="mb-2">Usage data and learning progress</li>
-                            <li className="mb-2">Device information and IP address</li>
-                        </ul>
+                            <div className="flex flex-col  ">
+                                 
+                                <p className="heading-text font-semibold">
+                                    Welcome to 1EQ Edutech's Privacy Policy
+                                </p>
+                            </div>
 
-                        <h2 className="text-2xl font-semibold text-slate-900 mb-4 mt-10">2. How We Use Your Information</h2>
-                        <p className="mb-4">We use the information we collect to:</p>
-                        <ul className="ml-6 mb-6 list-disc">
-                            <li className="mb-2">Provide, maintain, and improve our services</li>
-                            <li className="mb-2">Personalize your learning experience</li>
-                            <li className="mb-2">Send you updates and promotional communications (with your consent)</li>
-                            <li className="mb-2">Respond to your comments and questions</li>
-                        </ul>
+                            <div className="flex flex-col gap-4">
+                                <p className="content-text  ">
+                                    The creator of this policy, <a href="https://www.1pyq.com" className="font-semibold no-underline">www.1PYQ.com</a> (the "Website") <a href="https://play.google.com/store/apps/details?id=com.app.onepyq" className="font-semibold no-underline">1PYQ App</a>, Android app with package name "com.app.onepyq" owned by 1EQ Edutech Pvt. Ltd., a company incorporated in India under the Companies Act, 2013, having its registered office at Unit No 412, OCUS Quantum, Sector 51, Gurgaon, ("Our", "Us", "We", "1PYQ", "1EQ", "Website", "Site") ensures a steady commitment to your privacy with regard to the protection of your invaluable information that you may share across this Website. This privacy policy contains information about the Website.
+                                </p>
+                                <p className="content-text  ">
+                                    The expressions "You", "Your" or "User", whenever the context so requires, for the purposes of this Privacy Policy, shall mean any natural or legal person who may create by registration, membership account on this Website and/or Application or agree to avail Our Services through this Website and/or Application, or otherwise access Our Website and/or Application.
+                                </p>
+                                <p className="content-text  ">
+                                    We value Your trust & respect Your privacy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in Our Terms and Conditions at <a href="http://www.1pyq.com/" className="font-semibold no-underline">www.1PYQ.com</a> and/1PYQ App. This Privacy Policy provides You with details about the manner in which Your data is collected, stored & used by Us. You are advised to read this Privacy Policy carefully. By visiting Our Website and/or Application, you expressly give Us consent to use & disclose Your personal information in accordance with this Privacy Policy. If You do not agree to the terms of the policy, please do not use or access Our Website.
+                                </p>
+                                <p className="content-text  ">
+                                    The expressions <span className="heading-text font-semibold">"You"</span>, <span className="heading-text font-semibold">"Your"</span> or <span className="heading-text font-semibold">"User"</span>, whenever the context so requires, for the purposes of this Privacy Policy, shall mean any natural or legal person who may create by registration, membership account on this Website and/or Application or agree to avail Our Services through this Website and/or Application, or otherwise access Our Website and/or Application.
+                                </p>
+                            </div>
 
-                        <h2 className="text-2xl font-semibold text-slate-900 mb-4 mt-10">3. Data Security</h2>
-                        <p className="mb-6">We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    1. COMPLIANCES
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">1.1 Indian Compliances</span>
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">1.1.1</span> This legal agreement is an electronic record in terms of the <span className="heading-text font-semibold">Indian Information Technology Act, 2000</span> and rules there under as applicable and the amended provisions about electronic records in various statutes as amended by the <span className="heading-text font-semibold">Indian Information Technology Act, 2000</span>. This electronic record is generated by a computer system and does not require any physical or digital signatures.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">1.1.2</span> This legal document is published in accordance with the provisions of <span className="heading-text font-semibold italic">Rule 3 (1) and (2)</span> of the <span className="heading-text font-semibold">Indian Information Technology (Intermediaries guidelines and Digital Media Ethic Codes) Rules, 2021</span> and <span className="heading-text font-semibold italic">Rule 4</span> of the <span className="heading-text font-semibold">Information Technology (Reasonable security practices and procedures and sensitive personal data or information) Rules, 2011</span> of <span className="heading-text font-semibold">Information Technology Act, 2000</span> amended through <span className="heading-text font-semibold">Information Technology Amendment Act, 2008</span> that require publishing the Terms of Use and practices for access and usage of any functional Website.
+                                </p>
+                            </div>
 
-                        <h2 className="text-2xl font-semibold text-slate-900 mb-4 mt-10">4. Data Sharing</h2>
-                        <p className="mb-6">We do not sell your personal information. We may share your information with third-party service providers who assist us in operating our services, subject to confidentiality obligations.</p>
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    2. GENERAL
+                                </p>
+                                <p className="content-text  ">
+                                    We will not sell, share or rent Your personal information to any third party or use Your email address/mobile number for unsolicited emails and/or SMS. Any emails and/or SMS sent by Us will only be in connection with the provision of agreed Services & products and this Privacy Policy. To carry out general marketing We would be sending out emails to users registered on Our Website and/or Application (or by any means and in any media, including, but not limited to, on Our Website and/or Application or through Our merchants or in advertisements / marketing campaigns / any form of audio or visual media or websites). We reserve the right to communicate Your personal information to any third party that makes a legally-compliant request for its disclosure.
+                                </p>
+                            </div>
 
-                        <h2 className="text-2xl font-semibold text-slate-900 mb-4 mt-10">5. Your Rights</h2>
-                        <p className="mb-4">You have the right to:</p>
-                        <ul className="ml-6 mb-6 list-disc">
-                            <li className="mb-2">Access your personal data</li>
-                            <li className="mb-2">Request correction of inaccurate data</li>
-                            <li className="mb-2">Request deletion of your data</li>
-                            <li className="mb-2">Opt-out of marketing communications</li>
-                        </ul>
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    3. COLLECTION OF INFORMATION
+                                </p>
+                                <p className="content-text  ">
+                                    In order to provide Our Services, We may collect the following types of information:
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">3.1 User information</span> - When You use the Services, We automatically receive and record information from Your device and, applicable browser. Such information may include Your Contacts, location of Your device, text messages, profile photo, Your device storage, Your IP address, cookie information, software and hardware attributes, contacts and unique device ID. Most of the information We collect during Your use of Our Website and/or Application, such as Your device and hardware IDs and device type, the content of Your request, and basic usage stats about Your device and general use of Our Services does not by itself identify You to Us, though it may be unique or consist of or contain information that You consider personal.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">3.2 User Id</span> - In order to avail the services, you shall have to sign up on the Website and/or Application and shall be required to provide Your name, mobile number and email.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">3.3 Use history and preferences</span> - We save Your query terms as well as the experience/category selected, these may be associated with the unique User ID of Your device. We also save Your preferences as recorded through Your use of the Services and use them for personalization features.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">3.4 Cookies</span> - When You use Our Services, We may send one or more cookies. We use cookies to improve the quality of Our Service by storing User preferences and tracking User information. Certain of Our products and services allow You to download and/or personalize the content You receive from Us. For these products and services, We will record information about Your preferences, along with any information You provide yourself.
+                                </p>
+                            </div>
 
-                        <h2 className="text-2xl font-semibold text-slate-900 mb-4 mt-10">6. Contact Us</h2>
-                        <p className="mb-6">If you have any questions about this Privacy Policy, please contact us at <a href="mailto:privacy@1eq.in" className="text-[#E63946] no-underline">privacy@1eq.in</a></p>
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    4. USE OF INFORMATION
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">4.1</span> The Personal Information We collect allows Us to keep You posted on Our latest announcements, upcoming events, including confirmations, security alerts and support and administrative messages. It also helps Us to improve Our Services. If You do not want to be on Our mailing list, You can opt out at any time by updating Your preferences on the Website.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">4.2</span> From time to time, We may use Your Personal Information to send important notices, such as communications and changes to Our terms, conditions and policies. Since, this information is important to Your interaction with Us, You cannot opt out of receiving these communications.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">4.3</span> We may also use Personal Information for internal purposes such as data analysis and research to improve Our Services, products and customer communication.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">4.4</span> We collect Non-Personally Identifiable Information about Our users generally to improve features and functionality of the Website. We may analyze trends through aggregated demographic and psychographic offers to users. We may also share this Non-Personally Identifiable Information with Our partners to allow them to assist Us in delivering tailored advertisements, promotions, deals, discounts, and other offers to You when You use the Services. We collect information from You when You participate in sweepstakes, games or other promotions offered on Our Website.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">4.5</span> We may also collect information about You through other methods, including research surveys or information We obtain from third parties, including verification services, data services, as well as public sources.
+                                </p>
+                            </div>
 
-                        <div className="mt-12 p-6 bg-slate-50 rounded-xl border border-slate-200">
-                            <p className="text-sm text-slate-500">
-                                <strong className="text-slate-900">1EQ Edutech Private Limited</strong><br />
-                                907, OCUS Quantum, Sector 51, Gurgaon, Haryana, India<br />
-                                CIN: U72200KA2021PTC156100
-                            </p>
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    5. SHARING OF PERSONAL INFORMATION
+                                </p>
+                                <p className="content-text  ">
+                                    We only share personal information with other companies or individuals in the following limited circumstances:
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">5.1</span> We may share with third parties the location of Your device in order to improve and personalize Your experience of the Services.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">5.2</span> We may share with third parties certain pieces of non-personal information, such as the number of Users who used a particular service, users who clicked on a particular advertisement or who skipped a particular advertisement, as well as similar aggregated information. Such information does not identify You individually.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">5.3</span> We may share with third parties' Unique Device ID. While such information does not by itself identify You to us, it may be unique or consist of or contain information that You consider personal, however such information does not identify You individually.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">5.4</span> We provide such information to trusted businesses or persons for the purpose of processing personal information on Our behalf. We require that these parties agree to process such information based on Our instructions and in compliance with this Privacy Policy and any other appropriate confidentiality and security measures.
+                                </p>
+                                <p className="content-text  ">
+                                    <span className="font-semibold">5.5 Advertisers:</span> We allow advertisers and/or merchant partners ("Advertisers") to choose the demographic information of users who will see their advertisements and/or promotional offers and You agree that We may provide any of the information We have collected from You in non-personally identifiable form to an Advertiser, in order for that Advertiser to select the appropriate audience for those advertisements and/or offers.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    6. SECURITY
+                                </p>
+                                <p className="content-text  ">
+                                    The security of Your personal information is important to Us. We take precautions, including administrative, technical and physical measures, to safeguard Your personal information against loss, theft and misuse, as well as against unauthorized access, disclosure, alteration and destruction. When You enter sensitive information on Our registration We encrypt that information.
+                                </p>
+                                <p className="content-text  ">
+                                    This Website has various electronic, procedural and physical security measures in place to protect the loss, misuse and alteration of information, or any accidental loss, destruction or damage to data. When You submit Your information via the Website, Your information is protected through Our security systems.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    7. ACCESSING THIRD PARTY WEBSITES
+                                </p>
+                                <p className="content-text  ">
+                                    Website, mobile site and mobile app may contain links to other websites. Please note that when you click on one of these links, you are entering another website for which 1PYQ has no responsibility. We encourage you to read the privacy statements of all such sites as their policies may be materially different from this Privacy Policy. Of course, you are solely responsible for maintaining the secrecy of your passwords, and your membership account information. Please be very careful, responsible, and alert with this information, especially whenever you're online.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    8. PROTECTION OF CHILDREN
+                                </p>
+                                <p className="content-text  ">
+                                    If You are a User under the age of 18 ("Child User"), please ensure that You have adequate consent from Your parent or guardian to access Services in accordance with the present Privacy Policy. If You are the parent or guardian of a Child User, please advise Your child of the risks of posting personal information on Our Services or other online services, and that any information posted may be used by third parties without restriction. Notwithstanding anything contained herein, We shall always presume that every User has adequate consent and free-will to access Services and to enter into a legally enforceable contract with Us.
+                                </p>
+                                <p className="content-text  ">
+                                    We also reserve the right to remove, at Our sole discretion, any content or material posted by a User which may be of defamatory or sexual nature or offensive to other Users in any manner, and take appropriate legal action against such User in accordance with Our Terms of Use.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    9. COOKIES
+                                </p>
+                                <p className="content-text  ">
+                                    A cookie is a chunk of data that is sent to the Website from a server and stored on the hard drive of Your computer and/or mobile ("<span className="heading-text font-semibold">Cookies</span>"). A session Cookie disappears automatically after You close Your browser. A persistent Cookie remains after You close Your browser and may be used by Your browser on subsequent visits to the Services. We may use Cookies related information to: (a) remember Your data and/or personal information so that You will not have to re-enter it during Your visit or the next time You access the Services; (b) provide customized third-party advertisements, content, and information; (c) monitor the effectiveness of third-party marketing campaigns; (d) monitor aggregate site usage metrics such as total number of visitors and pages viewed; and (e) track Your entries, submissions, and status in any promotions or other activities.
+                                </p>
+                                <p className="content-text  ">
+                                    We may allow third-party service providers, like advertisers, to place and read their own Cookies, web beacons, and similar technologies to collect Data and/or Personal Information through Services. This data and/or personal information are collected directly and automatically by these third parties, and We do not participate in these data transmissions and these third-party cookies are not covered under this Privacy Policy.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    10. SECURITY
+                                </p>
+                                <p className="content-text  ">
+                                    We treat data as an asset that must be protected against loss and unauthorized access. We employ many different security techniques to protect such data from unauthorized access by members inside and outside the Company. We follow generally accepted industry standards to protect the Personal Information submitted to us and information that we have accessed.
+                                </p>
+                                <p className="content-text  ">
+                                    However, as effective as encryption technology is, no security system is impenetrable. Our Company cannot guarantee the security of our database, nor can we guarantee that information you provide won't be intercepted while being transmitted to the Company over the Internet.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    11. CONFIDENTIALITY
+                                </p>
+                                <p className="content-text  ">
+                                    You further acknowledge that the Website may contain information that is designated confidential by us and that you shall not disclose such information without our prior written consent. Your information is regarded as confidential and therefore will not be divulged to any third party, unless if legally required to do so to the appropriate authorities. We will not sell, share, or rent your personal information to any third party or use your e-mail address for unsolicited mail. Any emails sent by us will only be in connection with the provision of agreed services, and you retain sole discretion to seek for discontinuation of such communications at any point in time.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    12. OTHER INFORMATION COLLECTORS
+                                </p>
+                                <p className="content-text  ">
+                                    Except as otherwise expressly included in this Privacy Policy, this document only addresses the use and disclosure of information we collect from you. To the extent that you disclose your information to other parties, whether they are on our Website or other sites throughout the Internet, different rules may apply to their use or disclosure of the information you disclose to them. To the extent that we use third party advertisers, they adhere to their privacy policies. Since we do not control the privacy policies of the third parties, you are subject to ask questions before you disclose your personal information to others.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    13. CHANGES TO THE PRIVACY POLICY
+                                </p>
+                                <p className="content-text  ">
+                                    We reserve the right to change the Privacy Policy at Our sole discretion. We will inform Users of any such change by Us posting the updated Privacy Policy on Our Website. We encourage You to review this Privacy Policy regularly for any such changes. Your continued use of the Services will be subject to the then-current Privacy Policy.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    14. COMPLIANCE WITH LAWS AND LAW ENFORCEMENT
+                                </p>
+                                <p className="content-text  ">
+                                    We will cooperate with government and law enforcement officials and private parties to enforce and comply with the law. We reserve the right to track IP addresses for the purposes of fraud prevention, and to release IP addresses to legal authorities. We will disclose information about You to government or law enforcement officials or private parties when We believe reasonably necessary to comply with law, to protect the property and rights of 1PYQ or a third party, to protect the safety of the public or any person, or to prevent or stop activity We may consider to be, or to pose a risk of being, any illegal, unethical or legally actionable activity.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    15. CONSENT WITHDRAWAL, DATA DOWNLOAD & DATA REMOVAL REQUESTS
+                                </p>
+                                <p className="content-text  ">
+                                    To withdraw your consent, or to request the download or delete your data with us for any or all our services at any time, please email to <a href="mailto:contact@1eq.in" className="font-semibold no-underline">"contact@1eq.in"</a>
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    16. GOVERNING LAW
+                                </p>
+                                <p className="content-text  ">
+                                    These Terms of Use shall be governed by the laws of India and courts in Gurgaon shall have exclusive jurisdiction, without regard to principles of conflicts of law.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    17. DISPUTES
+                                </p>
+                                <p className="content-text  ">
+                                    Any Complaint regarding the breach of terms maybe notified to Our Grievance officer as named under the Terms of Services.
+                                </p>
+                                <p className="content-text  ">
+                                    Any dispute, controversy or claims arising out of or in relation to this Agreement or the breach, termination or invalidity thereof, shall be settled by arbitration in accordance with the provisions of the Arbitration and Conciliation Act, 1996. The arbitrator shall be appointed solely by the Company. The place of arbitration shall be Gurgaon, Haryana and any award whether interim or final, shall be made, and shall be deemed for all purposes between the Parties to be made, in Gurgaon, Haryana. The arbitral procedure shall be conducted in the English language and any award or awards shall be rendered in English. The procedural law of the arbitration shall be Indian law. The award of the arbitral tribunal shall be final, conclusive and binding upon the Parties, and the provisions of the Arbitration and Conciliation Act, 1996 shall apply.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    18. WAIVER
+                                </p>
+                                <p className="content-text  ">
+                                    Any failure on Our part to exercise any provision or right under this Privacy Policy, shall not constitute a waiver by Us of that provision or right.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    19. INDEMNITY
+                                </p>
+                                <p className="content-text  ">
+                                    You agree to indemnify, defend and hold harmless 1PYQ and its affiliates, agents, respective employees, directors, officers, agents, managers, vendors and suppliers from and against any liability, losses, claims, damages, demands, investigations, inquiries, suits, costs and expenses (including legal fee and costs incidental thereto) asserted against or incurred, that arise out of or otherwise relating to Your use of the Website and Application, including without limitation any obligation to be performed by You pursuant to this Privacy Policy. Further, You agree to hold 1PYQ harmless against any claims made by any third party due to, or arising out of or otherwise relating to Your use of the Website or Application, any claim arising out of damage caused to third party by You, breach of this Privacy Policy by You, or Your violation of any rights of another, including any intellectual property rights. Further, You agree to hold 1PYQ harmless against any claims made by any third party due to legal suits regarding the originality, copyright issues, Your violation of any third party right, including without limitation any copyright, property, or privacy right. This defense and indemnification obligation will survive this Privacy Policy.
+                                </p>
+                                <p className="content-text  ">
+                                    Notwithstanding anything to the contrary, Our entire liability towards You under these Terms of Use or otherwise shall only be in connection with refund of the money charged from You for any particular product or service, under which the unlikely liability arises.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    20. EMAIL NOTIFICATIONS
+                                </p>
+                                <p className="content-text  ">
+                                    You may be contacted, by email or other means; for example, We may send You promotional offer on behalf of other businesses, or communicate with You about Your use of the service. Also, We may receive a confirmation when You open an email from us. This confirmation helps us improve Our service. If You do not want to receive email or other mail from us, please indicate Your preference by clicking on the "Unsubscribe" link at the bottom of the email or changing Your email settings on Your account settings page. Please note that if You do not want to receive legal notices from us, those legal notices will still govern Your use of the service, and You are responsible for reviewing such legal notices for changes.
+                                </p>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <p className="heading-text font-semibold">
+                                    21. CONTACT INFORMATION
+                                </p>
+                                <p className="content-text  ">
+                                    If You have any questions or concerns with respect to this Privacy Policy, the Website and/or the Application or any information contained on thereon, You may contact Us by writing to Us at <a href="mailto:contact@1EQ.in" className="font-semibold no-underline">contact@1EQ.in</a>. This Privacy Policy supersede any previous versions.
+                                </p>
+                            </div>
+
                         </div>
                     </div>
                 </div>

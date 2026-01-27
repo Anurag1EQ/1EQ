@@ -11,6 +11,8 @@ import { CareersPage } from './pages/careers/Careers';
 import { ContactPage } from './pages/contact/Contact';
 import { PrivacyPage } from './pages/privacy/Privacy';
 import { TermsPage } from './pages/terms/Terms';
+import { ShippingPage } from './pages/shipping/Shipping';
+import { RefundPage } from './pages/refund/Refund';
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -37,6 +39,8 @@ export default function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/privacy_policy" element={<PrivacyPage />} />
           <Route path="/terms_of_service" element={<TermsPage />} />
+          <Route path="/shipping_policy" element={<ShippingPage />} />
+          <Route path="/refund_policy" element={<RefundPage />} />
         </Routes>
 
         <Footer />
