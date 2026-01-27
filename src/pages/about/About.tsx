@@ -1,6 +1,7 @@
 import './About.css';
 import { AboutHero } from '../../components/Hero/Hero';
 import { Link } from 'react-router-dom';
+import { FaLinkedin } from "react-icons/fa";
 
 export const AboutPage = () => {
     return (
@@ -29,17 +30,27 @@ export const AboutPage = () => {
 
                     <div className="grid-3 gap-4 mb-16">
                         {[
-                            { name: 'Founder Name', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.' },
-                            { name: 'Co-founder Name', role: 'Co-founder & COO', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.' },
-                            { name: 'Tech Lead Name', role: 'Head of Engineering', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.' }
+                            { image: '/images/jt.jpeg', name: 'Founder Name', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jt-jain-0b0b0b0b0/' },
+                            { image: '/images/richa.jpeg', name: 'Co-founder Name', role: 'Co-founder & COO', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.', url: 'https://www.linkedin.com/in/richa-jain-0b0b0b0b0/' },
+                            { image: '/images/jt.jpge', name: 'Tech Lead Name', role: 'Head of Engineering', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.', url: 'https://www.linkedin.com/in/jt-jain-0b0b0b0b0/' }
                         ].map(person => (
-                            <div key={person.name} className="bg-[var(--bg-card)] rounded-[5px] p-7">
-                                <div className="w-[60px] h-[60px] rounded-full bg-[var(--bg-card-light)] mb-4 flex items-center justify-center text-[20px] text-[var(--theme-text-dark)] font-[500]">
-                                    {person.name.split(' ').map(n => n[0]).join('')}
+                            <div key={person.name} className="bg-[var(--bg-card)] gap-4 rounded-[5px] p-7 flex flex-col justify-between">
+                                <div>
+                                    <div className='rounded-full border bg-[var(--bg-card)] mb-3 w-[90px] overflow-hidden shrink-0 aspect-square'>
+                                        <img src={person.image} className='h-full w-full object-cover' alt="" />
+                                    </div>
+                                    <h4 className="text-[18px] font-[500] text-[var(--theme-text-dark)] mb-1">{person.name}</h4>
+                                    <p className="text-[13px] font-[500] text-[var(--theme-text-medium)] font-[400] mb-2">{person.role}</p>
+                                    <p className="text-[14px] text-[var(--theme-text-medium)] leading-[1.6] ">{person.desc}</p>
+
                                 </div>
-                                <h4 className="text-[18px] font-[500] text-[var(--theme-text-dark)] mb-1">{person.name}</h4>
-                                <p className="text-[13px] text-[var(--theme-text-medium)] font-[400] mb-2">{person.role}</p>
-                                <p className="text-[14px] text-[var(--theme-text-medium)] leading-[1.6]">{person.desc}</p>
+                                <Link
+                                    target="_blank"
+                                    to={person.url}
+                                    className="px-[18px] hover:bg-[var(--border-medium)] gap-2 flex items-center justify-center duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px] whitespace-nowrap no-underline">
+                                    <FaLinkedin className='text-[25px]' />
+                                    Connect On LinkedIn
+                                </Link>
                             </div>
                         ))}
                     </div>
