@@ -1,7 +1,7 @@
 import './homePage.css';
 import { HomeHero } from '../../components/Hero/Hero';
 // import { TrustedBySection } from '../../components/TrustedBySection/TrustedBySection';
-import { ImpactSection } from '../../components/ImpactSection/ImpactSection';
+// import { ImpactSection } from '../../components/ImpactSection/ImpactSection';
 import { ProductsSection } from '../../components/ProductsSection/ProductsSection';
 import { BenefitsSection } from '../../components/BenefitsSection/BenefitsSection';
 import { ServicesSection } from '../../components/ServicesSection/ServicesSection';
@@ -14,7 +14,7 @@ export const HomePage = () => {
             <HomeHero />
             {/* <TrustedBySection /> */}
             <ProductsSection />
-            <ImpactSection />
+            {/* <ImpactSection /> */}
             <BenefitsSection />
             <ServicesSection />
             <TestimonialsSection />

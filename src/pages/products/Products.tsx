@@ -33,8 +33,8 @@ export const ProductsPage = () => {
                     {/* ========== 1PYQ SECTION ========== */}
                     <div id="1pyq" className="mb-25">
 
-                        <div className='bg-[var(--bg-card)] w-full flex items-center justify-between rounded-[5px] '>
-                            <div className='w-1/2 p-6 flex flex-col grow-1'>
+                        <div className=' w-full flex items-center justify-between rounded-[5px] '>
+                            <div className='bg-[var(--bg-card)] w-1/2 p-6 flex flex-col grow-1'>
 
                                 <div className='flex items-end gap-4 mb-3'>
                                     <div className='w-[120px] flex items-center justify-center'>
@@ -69,7 +69,7 @@ export const ProductsPage = () => {
                                         <FaGooglePlay />
                                         <span>Google Play</span>
                                     </Link>
-                                    <Link target="_blank" to="https://apps.apple.com/in/app/1pyq/id6473720012?l=hi" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    <Link target="_blank" to="https://apps.apple.com/in/app/1pyq/id6473720012?l" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <FaApple />
                                         <span>App Store</span>
                                     </Link>
@@ -81,7 +81,7 @@ export const ProductsPage = () => {
                             </div>
 
                             <div className='flex p-6 items-center justify-center w-1/2 grow-1'>
-                                <img src="/images/1pyq-product-img.png" className='h-full w-full object-contain' alt="" />
+                                <img src="/images/1pyq-poster-3.webp" className='h-full w-full object-contain' alt="" />
                             </div>
 
                         </div>
@@ -218,8 +218,8 @@ export const ProductsPage = () => {
                     {/* ========== 1LMS SECTION ========== */}
                     <div id="1lms" className="mt-[80px]">
 
-                        <div className='bg-[var(--bg-card)] w-full flex items-center justify-between rounded-[5px] '>
-                            <div className='w-1/2 p-6 flex flex-col flex-1'>
+                        <div className=' w-full flex items-center justify-between rounded-[5px] '>
+                            <div className='bg-[var(--bg-card)] w-1/2 p-6 flex flex-col flex-1'>
 
                                 <div className='flex items-end gap-4 mb-3'>
                                     <p className="text-[40px] font-[700] tracking-[1px] text-[var(--theme-text-dark)] font-[500] leading-[0.9]">1LMS</p>
@@ -309,10 +309,10 @@ export const ProductsPage = () => {
                     </div>
 
 
-                    <div id="1pyq" className="mb-25">
+                    <div id="1isl" className="mb-25 mt-[80px]">
 
-                        <div className='bg-[var(--bg-card)] w-full flex items-center justify-between rounded-[5px] '>
-                            <div className='w-1/2 p-6 flex flex-col grow-1'>
+                        <div className=' w-full flex items-center justify-between rounded-[5px] '>
+                            <div className='bg-[var(--bg-card)] w-1/2 p-6 flex flex-col grow-1'>
 
                                 <div className='flex items-end gap-4 mb-3'>
                                     <div className='w-[120px] flex items-center justify-center'>
@@ -344,23 +344,23 @@ export const ProductsPage = () => {
                                 {/* Download buttons */}
                                 <div className="flex-buttons flex-wrap gap-3">
 
-                                    <Link target="_blank" to="https://play.google.com/store/apps/details?id=com.app.onepyq" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    <Link target="_blank" to="https://play.google.com/store/apps/details?id=com.oneislchallenge&hl" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <FaGooglePlay />
                                         <span>Google Play</span>
                                     </Link>
-                                    <Link target="_blank" to="https://apps.apple.com/in/app/1pyq/id6473720012?l=hi" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    <Link target="_blank" to="https://apps.apple.com/in/app/1isl-challenge/id6742008806" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <FaApple />
                                         <span>App Store</span>
                                     </Link>
-                                    <Link target="_blank" to="https://app.1pyq.com/app1/" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    {/* <Link target="_blank" to="https://app.1pyq.com/app1/" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <span>Try Web Version →</span>
-                                    </Link>
+                                    </Link> */}
 
                                 </div>
                             </div>
 
                             <div className='flex p-6 items-center justify-center w-1/2 grow-1'>
-                                <img src="/images/1pyq-product-img.png" className='h-full w-full object-contain' alt="" />
+                                <img src="/images/1ISL-poster-3.webp" className='h-full w-full object-contain' alt="" />
                             </div>
 
                         </div>
@@ -385,9 +385,9 @@ export const ProductsPage = () => {
 
                         {/* Available languages */}
                         <div className=" mb-10 flex flex-col gap-3">
-                            <h3 className="text-[18px] font-[500] text-[var(--theme-text-dark)] ">Available in 18 Indian Languages</h3>
+                            <h3 className="text-[18px] font-[500] text-[var(--theme-text-dark)] ">Available in 16 Indian Languages</h3>
                             <div className="flex gap-3 flex-wrap">
-                                {['Hindi', 'English', 'Tamil', 'Telugu', 'Kannada', 'Malayalam', 'Bengali', 'Marathi', 'Gujarati', 'Punjabi', 'Odia', 'Assamese', 'Urdu', 'Maithili', 'Sanskrit', 'Konkani', 'Nepali', 'Manipuri'].map(exam => (
+                                {['Hindi', 'English', 'Tamil', 'Telugu', 'Kannada', 'Malayalam', 'Bengali', 'Marathi', 'Gujarati', 'Punjabi', 'Odia', 'Assamese', 'Urdu', 'Maithili', 'Sanskrit', 'Nepali'].map(exam => (
                                     <span key={exam} className="px-4 py-2 bg-[var(--bg-card)] rounded-full text-[14px] text-[var(--theme-text-medium)] ">{exam}</span>
                                 ))}
                             </div>
@@ -396,7 +396,7 @@ export const ProductsPage = () => {
                     </div>
 
                     {/* CTA */}
-                    <div className="bg-[var(--bg-card)] rounded-[5px] py-8  p-5 mt-8 text-center ">
+                    {/* <div className="bg-[var(--bg-card)] rounded-[5px] py-8  p-5 mt-8 text-center ">
                         <h2 className="text-[40px] text-slate-900 mb-4 font-lt-remark">
                             Need something custom?
                         </h2>
@@ -409,7 +409,7 @@ export const ProductsPage = () => {
                             <Link to="/contact" className='px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Contact Us</Link>
 
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </section>

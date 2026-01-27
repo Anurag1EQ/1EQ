@@ -12,8 +12,9 @@ export const ProductsSection = () => (
             </div>
 
             {/* Featured Product - 1PYQ */}
-            <div className=" bg-[var(--bg-card)]  p-12 mb-8  grid grid-cols-2 gap-12 items-center">
-                <div>
+            <div className=" mb-8 flex ">
+
+                <div className='bg-[var(--bg-card)]  w-1/2  p-8 flex flex-col justify-center '>
                     <div className="flex gap-3 mb-5 items-center">
                         <span className="text-[var(--theme-black)] text-xs font-semibold">FLAGSHIP</span>
                         <span className="bg-[var(--color-bg-hover)] text-[var(--color-text-muted)] px-3.5 py-1.5 rounded-md text-xs border border-[var(--color-border)]">B2C</span>
@@ -39,37 +40,17 @@ export const ProductsSection = () => (
                             </div>
                         ))}
                     </div>
-                    <Link to="/products" className='px-[18px]  hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Learn More →</Link>
+                    <Link to="/products" className='px-[18px] w-max  hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Learn More →</Link>
                 </div>
 
-                <div className=" p-8 shadow-md rounded-[6px] min-h-[320px] bg-white flex items-center justify-center  relative overflow-hidden" >
-
-                    <div className="w-[220px] flex items-center justify-center"
+                <div className=" p-8  rounded-[6px] w-1/2  flex items-center justify-center " >
+                    <div className="w-[320px] flex items-center justify-center"
                         style={{ filter: 'drop-shadow(#afafaf96 0 0 20px);' }}>
                         <img
-                            src="/images/1pyq-home-screenshot.svg"
+                            src="/images/1pyq-poster.webp"
                             className="h-full w-full object-contain"
-                            alt=""
-                        />
+                            alt="" />
                     </div>
-
-                    {/* <div className="w-[200px] h-[400px] bg-[var(--color-bg)] rounded-[32px] border-8 border-[var(--theme-text-dark)] p-2 shadow-lg relative">
-
-                        <div className="w-20 h-6 bg-[var(--color-text)] rounded-xl mx-auto mb-4" />
-
-                        <div className="p-2">
-                            <div className="rounded-xl p-4 mb-3" style={{ background: 'linear-gradient(135deg, var(--color-primary) 0%, #FF6B6B 100%)' }}>
-                                <div className="text-xs text-white font-semibold mb-1">1PYQ</div>
-                                <div className="text-[10px] text-white/80">AI-Powered Learning</div>
-                            </div>
-                            {[1, 2, 3, 4].map(i => (
-                                <div key={i} className="h-10 bg-[var(--color-bg-card)] rounded-lg mb-2 border border-[var(--color-border)]" />
-                            ))}
-                        </div>
-                        <p className="absolute bottom-5 left-1/2 -translate-x-1/2 text-[9px] text-[var(--color-text-dim)] text-center w-full">
-                            Replace with app screenshot
-                        </p>
-                    </div> */}
                 </div>
             </div>
 

@@ -13,7 +13,7 @@ export const Navigation = () => {
                     </Link>
 
                     <div className='flex items-center gap-[60px] ps-[50px] border-l-2 border-[var(--text-light)]'>
-                        {['Products', 'Services', 'Technology', 'Careers', 'Blog', 'About'].map(item => (
+                        {['Products', 'Services', 'Technology', 'Careers', 'About'].map(item => (
                             <NavLink to={`/${item.toLowerCase()}`} key={item}
                                 className={`nav-items-active bg-transparent border-none text-[16px] font-[300] cursor-pointer transition-colors duration-200 text-[var(--text-medium)] hover:text-[var(--text-light)] }`}>
                                 {item}

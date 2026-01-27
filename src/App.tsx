@@ -5,7 +5,7 @@ import { HomePage } from './pages/home/homePage';
 import { ProductsPage } from './pages/products/Products';
 import { ServicesPage } from './pages/services/Services';
 import { TechnologyPage } from './pages/technology/Technology';
-import { BlogPage } from './pages/blog/Blog';
+// import { BlogPage } from './pages/blog/Blog';
 import { AboutPage } from './pages/about/About';
 import { CareersPage } from './pages/careers/Careers';
 import { ContactPage } from './pages/contact/Contact';
@@ -31,7 +31,7 @@ export default function App() {
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/technology" element={<TechnologyPage />} />
-          <Route path="/blog" element={<BlogPage />} />
+          {/* <Route path="/blog" element={<BlogPage />} /> */}
           <Route path="/about" element={<AboutPage />} />
           <Route path="/careers" element={<CareersPage />} />
           <Route path="/contact" element={<ContactPage />} />

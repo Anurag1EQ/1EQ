@@ -58,13 +58,13 @@ export const Footer = () => {
                             <div>
                                 <h4 className="text-[var(--text-light)] text-[18px] font-semibold mb-5 uppercase tracking-[0.5px]">Products</h4>
                                 {['1PYQ', '1LMS', '1ISL Challenge'].map(item => (
-                                    <button key={item} className="block text-left w-full text-[var(--text-medium)] text-[16px] mb-3 cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">{item}</button>
+                                    <Link to='/products' key={item} className="block text-left w-full text-[var(--text-medium)] text-[16px] mb-3 cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">{item}</Link>
                                 ))}
                             </div>
 
                             <div>
                                 <h4 className="text-[var(--text-light)] text-[18px] font-semibold mb-5 uppercase tracking-[0.5px]">Company</h4>
-                                {[{ label: 'About', page: 'about' }, { label: 'Services', page: 'services' }, { label: 'Technology', page: 'technology' }, { label: 'Blog', page: 'blog' }, { label: 'Careers', page: 'careers' }].map(item => (
+                                {[{ label: 'About', page: 'about' }, { label: 'Services', page: 'services' }, { label: 'Technology', page: 'technology' }, { label: 'Careers', page: 'careers' }].map(item => (
                                     <button key={item.label} className="block text-left w-full text-[var(--text-medium)] text-[16px] mb-3 cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">{item.label}</button>
                                 ))}
                             </div>
