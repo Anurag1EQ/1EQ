@@ -55,6 +55,9 @@
   font-family: "Inter", sans-serif;
 }
 
+.theme-text-medium {
+  color: var(--theme-text-medium);
+}
 @font-face {
   font-family: "Lt remark";
   src: url("/fonts/ltRemark/LtRemark-Regular.otf");
@@ -562,4 +565,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: var(--theme-text-medium);
+}
+.lh-1-2 {
+  line-height: 1.2em;
 }
