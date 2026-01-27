@@ -30,9 +30,9 @@ export const AboutPage = () => {
 
                     <div className="grid-3 gap-4 mb-16">
                         {[
-                            { image: '/images/jt.jpeg', name: 'Founder Name', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jt-jain-0b0b0b0b0/' },
-                            { image: '/images/richa.jpeg', name: 'Co-founder Name', role: 'Co-founder & COO', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.', url: 'https://www.linkedin.com/in/richa-jain-0b0b0b0b0/' },
-                            { image: '/images/jt.jpge', name: 'Tech Lead Name', role: 'Head of Engineering', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.', url: 'https://www.linkedin.com/in/jt-jain-0b0b0b0b0/' }
+                            { image: '/images/jt.jpeg', name: 'Founder Name', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jagadeesh-taluri/' },
+                            { image: '/images/richa.jpeg', name: 'Co-founder Name', role: 'Co-founder & COO', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.', url: 'https://www.linkedin.com/in/richa-singh-a62973218/' },
+                            { image: '/images/person-placeholder.svg', name: 'Tech Lead Name', role: 'Head of Engineering', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.', url: '#' }
                         ].map(person => (
                             <div key={person.name} className="bg-[var(--bg-card)] gap-4 rounded-[5px] p-7 flex flex-col justify-between">
                                 <div>
