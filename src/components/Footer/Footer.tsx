@@ -78,7 +78,7 @@ export const Footer = () => {
                         </div>
 
                         <div className="border-t border-[var(--color-border-dark)] pt-6 flex justify-between items-center flex-wrap gap-4">
-                            <p className="text-[14px] text-[var(--text-medium)]">© 2021–2026 1EQ Edutech Pvt. Ltd.</p>
+                            <p className="text-[14px] text-[var(--text-medium)]">© 2022–2026 1EQ Edutech Pvt. Ltd.</p>
                             <div className="flex gap-[15px]">
                                 <Link to="/privacy_policy" className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">Privacy Policy</Link>
                                 <Link to="/terms_of_service" className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">Terms of Service</Link>

@@ -122,7 +122,7 @@ export const AboutHero = () => (
                 <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>About Us</p>
                     <p className='text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Building technology for how India learns</p>
-                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Since 2021, we've been making education accessible.</p>
+                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Since 2022, we've been making education accessible.</p>
 
                 </div>
             </div>

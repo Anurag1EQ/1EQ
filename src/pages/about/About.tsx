@@ -30,13 +30,13 @@ export const AboutPage = () => {
 
                     <div className="grid-3 gap-4 mb-16">
                         {[
-                            { image: '/images/jt.jpeg', name: 'Founder Name', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jagadeesh-taluri/' },
-                            { image: '/images/richa.jpeg', name: 'Co-founder Name', role: 'Co-founder & COO', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.', url: 'https://www.linkedin.com/in/richa-singh-a62973218/' },
-                            { image: '/images/person-placeholder.svg', name: 'Tech Lead Name', role: 'Head of Engineering', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.', url: '#' }
+                            { image: '/images/jt.jpeg', name: 'Jagadeesh Taluri', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jagadeesh-taluri/' },
+                            { image: '/images/dhritiman.webp', name: 'Dhritiman Murti', role: 'Co-founder', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.', url: 'https://www.linkedin.com/in/dhritiman-murti-918646125/' },
+                            { image: '/images/richa.jpeg', name: 'Richa Singh', role: 'Co-founder', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.', url: 'https://www.linkedin.com/in/richa-singh-a62973218/' }
                         ].map(person => (
                             <div key={person.name} className="bg-[var(--bg-card)] gap-4 rounded-[5px] p-7 flex flex-col justify-between">
                                 <div>
-                                    <div className='rounded-full border bg-[var(--bg-card)] mb-3 w-[90px] overflow-hidden shrink-0 aspect-square'>
+                                    <div className='rounded-full border bg-[var(--bg-card)] mb-3 w-[90px] overflow-hidden shrink-0 aspect-square grayscale'>
                                         <img src={person.image} className='h-full w-full object-cover' alt="" />
                                     </div>
                                     <h4 className="text-[18px] font-[500] text-[var(--theme-text-dark)] mb-1">{person.name}</h4>
