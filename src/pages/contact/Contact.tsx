@@ -9,6 +9,8 @@ import { FaTelegram } from "react-icons/fa";
 
 
 export const ContactPage = () => {
+    const url = 'https://script.google.com/macros/s/AKfycbzx4Yx4rMICxJdxu3ZnR_BTaxkDJHYrO226HKx7J9YesLZkjuBtAWwL9YeVM3Oc9XAN5w/exec'
+    // const key = 'AKfycbzx4Yx4rMICxJdxu3ZnR_BTaxkDJHYrO226HKx7J9YesLZkjuBtAWwL9YeVM3Oc9XAN5w'
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -121,8 +123,19 @@ export const ContactPage = () => {
         setSubmissionStatus('');
 
         try {
+
+            const res = await fetch(
+                url,
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(formData)
+                }
+            );
             // Log the form details
-            console.log('Form Submitted Successfully!');
+            console.log('Form Submitted Successfully!', res);
             console.log('Form Data:', {
                 name: formData.name,
                 email: formData.email,
@@ -130,9 +143,6 @@ export const ContactPage = () => {
                 subject: formData.subject,
                 message: formData.message
             });
-
-            // Simulate API call (remove this when you add real API)
-            await new Promise(resolve => setTimeout(resolve, 1500));
 
             // Success - Reset form
             setFormData({
