@@ -30,7 +30,7 @@ export const AboutPage = () => {
 
                     <div className="grid-3 gap-4 mb-16">
                         {[
-                            { image: '/images/jt.webp', name: 'Jagadeesh Taluri', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jagadeesh-taluri/' },
+                            { image: '/images/jt-updated2.jpeg', name: 'Jagadeesh Taluri', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jagadeesh-taluri/' },
                             { image: '/images/dhritiman.webp', name: 'Dhritiman Murti', role: 'Co-founder', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.', url: 'https://www.linkedin.com/in/dhritiman-murti-918646125/' },
                             { image: '/images/richa.jpeg', name: 'Richa Singh', role: 'Co-founder', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.', url: 'https://www.linkedin.com/in/richa-singh-a62973218/' }
                         ].map(person => (
