@@ -10,7 +10,7 @@ export const ServicesSection = () => (
                 How we can help
             </h2>
             <p className="text-[16px] text-[var(--theme-text-medium)] mb-10 max-w-[600px] mx-auto">
-                Custom development, white-label platforms, tech consulting, and accessibility solutions — all built by our in-house team.
+                Custom development, white-label platforms, tech consulting, and accessibility solutions all built by our in-house team.
             </p>
 
             <div className="flex gap-4 justify-center flex-wrap mb-12">

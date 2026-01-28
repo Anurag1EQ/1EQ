@@ -44,7 +44,8 @@ export const Footer = () => {
                                         { name: 'LinkedIn', icon: <TiSocialLinkedin className='text-[22px]' />, url: 'https://in.linkedin.com/company/1eq-tech' },
                                         // { name: 'Twitter', icon: <FaXTwitter className='text-[18px]' />, url: 'https://x.com/1EQfoundation' },
                                         { name: 'Telegram', icon: <FaTelegram className='text-[18px]' />, url: 'https://t.me/One_EQ' },
-                                        { name: 'YouTube', icon: <FaYoutube className='text-[18px]' />, url: 'https://youtube.com/@1-EQ' }
+                                        { name: 'YouTube', icon: <FaYoutube className='text-[18px]' />, url: 'https://youtube.com/@1-EQ' },
+                                        { name: 'YouTube', icon: <FaYoutube className='text-[18px]' />, url: 'https://www.youtube.com/@1Math.1EQ' }
                                     ].map(social => (
                                         <a
                                             key={social.name}

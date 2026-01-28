@@ -14,7 +14,7 @@ export const BenefitsSection = () => (
                 {[
                     { icon: "/images/graduation-cap.svg", title: 'EdTech DNA', desc: "We understand pedagogy, learning outcomes, and what makes education stick." },
                     { icon: '/images/users.svg', title: 'In-house Team', desc: '20-person tech team. No outsourcing. Direct communication with builders.' },
-                    { icon: '/images/wheelchair-person.svg', title: 'Accessibility First', desc: 'Multi-language, low-bandwidth, sign language — we build for everyone.' },
+                    { icon: '/images/wheelchair-person.svg', title: 'Accessibility First', desc: 'Multi-language, low-bandwidth, sign language we build for everyone.' },
                     { icon: '/images/target-lock.svg', title: 'Mission Aligned', desc: "We partner with orgs that believe education shouldn't depend on pin code." },
                     { icon: '/images/flash-icon.svg', title: 'Battle-tested Tech', desc: "Our products serve real users daily. We build what works, not what demos well." },
                     { icon: '/images/handshake.svg', title: 'Long-term Partners', desc: "We don't disappear after delivery. We grow with you." }

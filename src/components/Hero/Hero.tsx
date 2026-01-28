@@ -50,7 +50,7 @@ export const ProductsHero = () => (
                 <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Our Products</p>
                     <p className='text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Technology built for how India learns</p>
-                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>From AI-powered exam prep to accessible learning tools — products designed for real Indian learners.</p>
+                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>From AI-powered exam prep to accessible learning tools, products designed for real Indian learners.</p>
 
                 </div>
             </div>

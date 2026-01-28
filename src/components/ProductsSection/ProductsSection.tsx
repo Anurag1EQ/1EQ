@@ -12,9 +12,9 @@ export const ProductsSection = () => (
             </div>
 
             {/* Featured Product - 1PYQ */}
-            <div className=" mb-8 flex ">
+            <div className=" mb-8 flex bg-[var(--bg-card)]">
 
-                <div className='bg-[var(--bg-card)]  w-1/2  p-8 flex flex-col justify-center '>
+                <div className='  w-1/2  p-8 flex flex-col justify-center '>
                     <div className="flex gap-3 mb-5 items-center">
                         <span className="text-[var(--theme-black)] text-xs font-semibold">FLAGSHIP</span>
                         <span className="bg-[var(--color-bg-hover)] text-[var(--color-text-muted)] px-3.5 py-1.5 rounded-md text-xs border border-[var(--color-border)]">B2C</span>

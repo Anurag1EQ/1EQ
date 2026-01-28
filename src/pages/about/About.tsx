@@ -18,7 +18,7 @@ export const AboutPage = () => {
 
                     <div className="text-[15px] text-[var(--theme-text-medium)] leading-[1.6] max-w-[800px] mx-auto mb-16">
                         <p className="mb-4">1EQ Edutech started with a simple question: why does education technology work for some and not for others?</p>
-                        <p className="mb-4">We found that most EdTech is built for urban, English-speaking, premium-paying users. But India's real learners — the ones preparing for government exams in Tier 2 and Tier 3 cities, the ones who can't afford ₹999/month subscriptions — were being left behind.</p>
+                        <p className="mb-4">We found that most EdTech is built for urban, English-speaking, premium-paying users. But India's real learners the ones preparing for government exams in Tier 2 and Tier 3 cities, the ones who can't afford ₹999/month subscriptions were being left behind.</p>
                         <p>So we built differently. Today, 1EQ Edutech creates learning technology that's accessible, affordable, and effective.</p>
                     </div>
 
