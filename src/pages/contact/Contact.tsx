@@ -9,7 +9,7 @@ import { FaTelegram } from "react-icons/fa";
 
 
 export const ContactPage = () => {
-    const url = 'https://script.google.com/macros/s/AKfycbwWQZYPCaJGEeLaB1WNWmvEK9jnFT3wxwn4D4XNnwnGjKAr_iuDbzFh_0aEY-jDmJHEsg/exec'
+    const url = 'https://script.google.com/macros/s/AKfycbzXU5hbS0pgDHvc2m0CN6ouAxN_e32oDXZh-rUK7JCjCt6Xk7tn7CSTsUdZ5jMtg46YGw/exec'
     const [formData, setFormData] = useState({
         name: '',
         email: '',
