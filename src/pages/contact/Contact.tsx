@@ -113,7 +113,7 @@ export const ContactPage = () => {
         e.preventDefault();
 
         if (!validateForm()) {
-            setSubmissionStatus('Please fix the errors above before submitting.');
+            setSubmissionStatus('Please enter all the fields before submitting.');
             return;
         }
 
