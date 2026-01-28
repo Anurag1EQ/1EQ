@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
+import { MdAlternateEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 export const Footer = () => {
 
@@ -65,15 +68,27 @@ export const Footer = () => {
                             <div>
                                 <h4 className="text-[var(--text-light)] text-[18px] font-semibold mb-5 uppercase tracking-[0.5px]">Company</h4>
                                 {[{ label: 'About', page: 'about' }, { label: 'Services', page: 'services' }, { label: 'Technology', page: 'technology' }, { label: 'Careers', page: 'careers' }].map(item => (
-                                    <button key={item.label} className="block text-left w-full text-[var(--text-medium)] text-[16px] mb-3 cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">{item.label}</button>
+                                    <Link to={'/' + item.page} key={item.label} className="block text-left w-full text-[var(--text-medium)] text-[16px] mb-3 cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">{item.label}</Link>
                                 ))}
                             </div>
 
                             <div>
-                                <h4 className="text-[var(--text-light)] text-[18px] font-semibold mb-5 uppercase tracking-[0.5px]">Contact</h4>
-                                <p className="text-[var(--text-medium)] text-[16px] mb-2">contact@1eq.in</p>
-                                <p className="text-[var(--text-medium)] text-[16px] mb-2">+91 98851 15063</p>
-                                <p className="text-[var(--text-medium)] text-[16px] leading-[1.5]">907, OCUS Quantum<br />Sector 51, Gurgaon</p>
+                                <h4 className="text-[var(--text-light)]  text-[18px] font-semibold mb-5 uppercase tracking-[0.5px]">Contact</h4>
+                                <a
+                                    href="mailto:contact@1eq.in"
+                                    className="text-[var(--text-medium)] no-underline flex items-center gap-2 cursor-pointer hover:text-[var(--text-light)] transition-colors text-[16px] mb-2"
+                                >
+                                    <MdAlternateEmail /> contact@1eq.in
+                                </a>
+                                <p className="text-[var(--text-medium)] flex items-center gap-2  text-[16px] mb-2"><FaPhoneAlt /> +91 9885115063</p>
+                                <a
+                                    href="https://maps.app.goo.gl/nbrnoRPg9SzF6x5V9"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-[var(--text-medium)] no-underline flex items-start gap-2 cursor-pointer hover:text-[var(--text-light)] transition-colors text-[16px] leading-[1.5]"
+                                >
+                                    <FaLocationDot className='mt-1' /> 907, OCUS Quantum<br />Sector 51, Gurgaon
+                                </a>
                             </div>
                         </div>
 
