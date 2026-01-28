@@ -13,7 +13,7 @@ export const ContactPage = () => {
             <ContactHero />
             <section className=" flex items-center justify-center bg-white  font-['DM_Sans']">
 <div className="flex flex-col items-center justify-center w-full">
-                    <div className="global-width   h-[calc(100vh-200px)]  flex flex-col items-center  justify-center  global-border-page w-full mx-auto" >
+                    <div className="global-width min-h-[650px]  h-[calc(100vh-200px)]  flex flex-col items-center  justify-center  global-border-page w-full mx-auto" >
                         <div className=' px-[36px] w-full flex flex-col'>
 
                        
@@ -115,7 +115,7 @@ export const ContactPage = () => {
                                     <div className="grid text-[var(--theme-text-medium)] grid-cols-2 gap-5 mb-5">
                                         <div>
                                             <label className="block text-sm font-medium 
-                                            text-[var(--theme-text-medium)] mb-2">Your name*</label>
+                                            text-[var(--theme-text-medium)] mb-2">Your name</label>
                                             <input
                                                 type="text"
                                                 name="Name"
@@ -123,9 +123,10 @@ export const ContactPage = () => {
                                                 className="lh-1-2 w-full px-[18px] py-[16px] bg-white border border-slate-200   text-[15px]  box-border"
                                                 placeholder="Enter your name"
                                             />
+                                            <p className='text-red-500 py-1 text-[14px] h-[22px] leading-none'>Please enter your name.</p>
                                         </div>
                                         <div>
-                                            <label className="block text-sm font-medium mb-2">Email*</label>
+                                            <label className="block text-sm font-medium mb-2">Email</label>
                                             <input
                                                 type="email"
                                                 name="Email"
@@ -133,13 +134,14 @@ export const ContactPage = () => {
                                                 className="lh-1-2 w-full px-[18px] py-[16px] bg-white border border-slate-200   text-[15px]  box-border"
                                                 placeholder="Enter your email"
                                             />
+                                             <p className='text-red-500 py-1 text-[14px] h-[22px] leading-none'>Please enter your Email.</p>
                                         </div>
                                     </div>
 
                                     {/* Phone and Subject Row */}
                                     <div className="grid text-[var(--theme-text-medium)] grid-cols-2 gap-5 mb-5">
                                         <div>
-                                            <label className="block text-sm font-medium  mb-2">Phone number*</label>
+                                            <label className="block text-sm font-medium  mb-2">Phone number</label>
                                             <input
                                                 type="tel"
                                                 name="Phone number"
@@ -147,37 +149,42 @@ export const ContactPage = () => {
                                                 className="lh-1-2 w-full px-[18px] py-[16px] bg-white border border-slate-200   text-[15px]  box-border"
                                                 placeholder="Enter your phone number"
                                             />
+                                             <p className='text-red-500 py-1 text-[14px] h-[22px] leading-none'>Please enter phone number.</p>
                                         </div>
                                         <div >
-                                            <label className="block text-sm font-medium mb-2">Subject*</label>
+                                            <label className="block text-sm font-medium mb-2">Subject</label>
                                             <input
                                                 type="text"
                                                 name="Subject"
                                                 required
-                                                className="lh-1-2 w-full px-[18px] py-[16px] bg-white border border-slate-200   text-[15px]   box-border"
+                                                className="lh-1-2 w-full px-[18px] py-[16px]  bg-white border border-slate-200   text-[15px]   box-border"
 
                                                 placeholder="Enter a subject"
-                                            />
+                                            /> <p className='text-red-500 py-1 text-[14px] h-[22px] leading-none'>Please enter subject name.</p>
                                         </div>
                                     </div>
 
                                     {/* Message */}
                                     <div className="mb-6 text-[var(--theme-text-medium)]">
-                                        <label className="block text-sm font-medium mb-2">Your message*</label>
-                                        <textarea
-                                            name="Message"
-                                            required
-                                            className="lh-1-2 w-full px-[18px] py-[16px] bg-white border border-slate-200   text-[15px]   box-border min-h-[120px] resize-y"
-                                            placeholder="Enter your message..."
-                                        />
-                                    </div>
+             <label className="block text-sm font-medium mb-2">Your message</label>
+             <textarea
+            name="Message"
+            required
+            className="lh-1-2 w-full px-[18px] py-[16px] bg-white border border-slate-200 text-[15px] box-border min-h-[120px] "
+            placeholder="Enter your message..."
+        />
+           <p className='text-red-500 py-1 text-[14px] h-[22px] leading-none   '>Please enter message.</p>
+    </div>
 
                                     {/* Submit Button */}
                                     <button 
                                         type="submit"
-                                        className="w-full bg-slate-900 text-sm text-white border-none py-4     font-semibold cursor-pointer hover:bg-slate-800 transition-colors"
-                                    >
+                                        className="w-full bg-slate-900 text-sm text-white border-none py-4     font-semibold cursor-pointer flex justify-center items-center gap-2 hover:bg-slate-800 transition-colors"
+                                    ><div className=''>
+
                                         Submit
+                                    </div>
+                                        <span className='loader'></span>
                                     </button>
 
                                     {/* Terms Text */}
