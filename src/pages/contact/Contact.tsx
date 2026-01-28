@@ -9,8 +9,7 @@ import { FaTelegram } from "react-icons/fa";
 
 
 export const ContactPage = () => {
-    const url = 'https://script.google.com/macros/s/AKfycbzx4Yx4rMICxJdxu3ZnR_BTaxkDJHYrO226HKx7J9YesLZkjuBtAWwL9YeVM3Oc9XAN5w/exec'
-    // const key = 'AKfycbzx4Yx4rMICxJdxu3ZnR_BTaxkDJHYrO226HKx7J9YesLZkjuBtAWwL9YeVM3Oc9XAN5w'
+    const url = 'https://script.google.com/macros/s/AKfycbwWQZYPCaJGEeLaB1WNWmvEK9jnFT3wxwn4D4XNnwnGjKAr_iuDbzFh_0aEY-jDmJHEsg/exec'
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -123,19 +122,18 @@ export const ContactPage = () => {
         setSubmissionStatus('');
 
         try {
+            await fetch(url, {
+                method: "POST",
+                mode: 'no-cors',
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(formData)
+            });
 
-            const res = await fetch(
-                url,
-                {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify(formData)
-                }
-            );
+            // Note: With 'no-cors', we can't read the response, but the request will be sent
             // Log the form details
-            console.log('Form Submitted Successfully!', res);
+            console.log('Form Submitted Successfully!');
             console.log('Form Data:', {
                 name: formData.name,
                 email: formData.email,

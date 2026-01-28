@@ -1,11 +1,11 @@
 import './NotFound.css';
 import { Link } from 'react-router-dom';
-import { HomeHero } from '../../components/Hero/Hero';
+// import { HomeHero } from '../../components/Hero/Hero';
 
 export const NotFoundPage = () => {
     return (
         <>
-            <HomeHero />
+            {/* <HomeHero /> */}
             <section className="min-h-screen bg-white flex items-center justify-center font-['DM_Sans']">
                 <div className="flex flex-col items-center justify-center w-full">
                     <div className="global-width min-h-screen flex flex-col items-center justify-center global-border-page w-full mx-auto">
