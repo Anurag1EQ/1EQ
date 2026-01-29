@@ -1,1 +1,10 @@
 /* ProductsSection component specific styles */
+@media (max-width: 576px) {
+  .mobile-w-100 {
+    width: 100%;
+    align-items: center;
+  }
+  .product-mobile {
+    flex-direction: column;
+  }
+}

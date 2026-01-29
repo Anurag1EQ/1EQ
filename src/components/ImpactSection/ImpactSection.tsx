@@ -2,7 +2,7 @@ import './ImpactSection.css';
 
 export const ImpactSection = () => (
     <section className="">
-        <div className="global-width global-border-page mx-auto global-padding py-5 min-h-[400px] flex flex-col justify-center">
+        <div className="global-width global-border-page mx-auto global-padding global-padding-mobile  py-5 min-h-[400px] flex flex-col justify-center">
             <div className="bg-gradient-to-br from-[var(--theme-black)] to-[var(--theme-black)] rounded-3xl p-[60px] grid grid-cols-4 gap-8 text-center">
                 {[
                     { value: '50,000+', label: 'Learners served' },

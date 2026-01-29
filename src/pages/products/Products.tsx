@@ -9,10 +9,10 @@ export const ProductsPage = () => {
     return (
         <>
             <ProductsHero />
-            <section className="min-h-screen bg-white global-width py-10  global-border-page mx-auto global-padding">
+            <section className="min-h-screen bg-white global-width py-10  global-border-page mx-auto global-padding global-padding-mobile ">
 
                 <div className="w-full mx-auto mb-10 py-7">
-                    <h2 className="text-[51px] font-lt-remark font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Which product is right for you?</h2>
+                    <h2 className="md-text-51 custom-h2 font-lt-remark font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Which product is right for you?</h2>
                     <div className="grid-3 gap-4">
                         {[
                             { question: "Preparing for competitive exams?", answer: "1PYQ", color: "text-[#E63946]" },
@@ -33,8 +33,8 @@ export const ProductsPage = () => {
                     {/* ========== 1PYQ SECTION ========== */}
                     <div id="1pyq" className="mb-25">
 
-                        <div className=' w-full flex items-center justify-between rounded-[5px] '>
-                            <div className='bg-[var(--bg-card)] w-1/2 p-6 flex flex-col grow-1'>
+                        <div className=' w-full flex-column md:flex items-center justify-between rounded-[5px] '>
+                            <div className='bg-[var(--bg-card)] w-full lg:w-1/2 p-6 flex flex-col grow-1'>
 
                                 <div className='flex items-end gap-4 mb-3'>
                                     <div className='w-[120px] flex items-center justify-center'>
@@ -44,7 +44,7 @@ export const ProductsPage = () => {
 
                                     </div>
                                     <div className="flex gap-3 flex-wrap">
-                                        <span className=" bg-[var(--bg-card-light)] text-[var(--theme-text-medium)]  rounded-md text-[12px] font-[400]">B2C</span>
+                                        <span className=" bg-[var(--bg-card-light)] text-[var(--color-primary)]  rounded-md text-[12px] font-[400]">B2C</span>
                                         <span className=" bg-[var(--bg-card-light)] text-[var(--theme-text-medium)]  rounded-md text-[12px] font-[400]">FLAGSHIP</span>
                                     </div>
                                 </div>
@@ -53,9 +53,9 @@ export const ProductsPage = () => {
                                 <p className="text-[16px] text-[var(--theme-text-dark)] font-[500] mb-4">AI-powered precision learning for exam aspirants</p>
 
                                 <div className="flex flex-col gap-2 mb-5 bg-white p-3 ">
-                                    <p className="text-[18px] text-[var(--theme-text-dark)]  italic">अहम् शिक्षकः।</p>
-                                    <p className="text-[15px] text-[var(--theme-text-medium)] italic">Aham Shikṣakaḥ</p>
-                                    <p className="text-[14px] text-[var(--theme-text-medium)]  italic">"I am the teacher." Self-learning isn't the fallback. It's the future.</p>
+                                    <p className="text-[18px] text-[var(--color-primary)]  italic">अहम् शिक्षकः।</p>
+                                    <p className="text-[15px] text-[var(--color-primary)] italic">Aham Shikṣakaḥ</p>
+                                    <p className="text-[14px] text-[var(--color-primary)]  italic">"I am the teacher." Self-learning isn't the fallback. It's the future.</p>
                                 </div>
 
                                 <p className="text-[16px] text-[var(--theme-text-medium)] leading-[1.4] mb-10 ">
@@ -80,7 +80,7 @@ export const ProductsPage = () => {
                                 </div>
                             </div>
 
-                            <div className='flex p-6 items-center justify-center w-1/2 grow-1'>
+                            <div className='flex p-6 items-center justify-center w-full lg:w-1/2 grow-1'>
                                 <img src="/images/1pyq-poster-3.webp" className='h-full w-full object-contain' alt="" />
                             </div>
 
@@ -90,7 +90,7 @@ export const ProductsPage = () => {
                         {/* Features Grid */}
                         <div className="grid-3 mb-10 mt-10 ">
                             {[
-                                { icon: '/images/target-lock.svg', title: 'AI Gap Analysis', desc: 'Identifies exactly where you need to improve' },
+                                { icon: '/images/target-lock.svg', title: 'Gap Analysis', desc: 'Identifies exactly where you need to improve' },
                                 { icon: '/images/repeat.svg', title: 'Spaced Repetition', desc: 'Scientifically-proven retention system' },
                                 { icon: '/images/bar-chart.svg', title: 'Progress Tracking', desc: 'Visual analytics of your preparation' },
                                 { icon: '/images/offline.svg', title: 'Offline Mode', desc: 'Download and learn without internet' },
@@ -218,8 +218,8 @@ export const ProductsPage = () => {
                     {/* ========== 1LMS SECTION ========== */}
                     <div id="1lms" className="mt-[80px]">
 
-                        <div className=' w-full flex items-center justify-between rounded-[5px] '>
-                            <div className='bg-[var(--bg-card)] w-1/2 p-6 flex flex-col flex-1'>
+                        <div className=' w-full  flex-column   md:flex items-center justify-between rounded-[5px] '>
+                            <div className='bg-[var(--bg-card)] w-full lg:w-1/2 p-6 flex flex-col flex-1'>
 
                                 <div className='flex items-end gap-4 mb-3'>
                                     <p className="text-[40px] font-[700] tracking-[1px] text-[var(--theme-text-dark)] font-[500] leading-[0.9]">1LMS</p>
@@ -229,7 +229,7 @@ export const ProductsPage = () => {
                                         </svg>
                                     </div> */}
                                     <div className="flex gap-3 flex-wrap">
-                                        <span className=" bg-[var(--bg-card-light)] text-[var(--theme-text-medium)]  rounded-md text-[12px] font-[400]">B2B</span>
+                                        <span className=" bg-[var(--bg-card-light)] text-[var(--color-primary)]  rounded-md text-[12px] font-[400]">B2B</span>
                                         <span className=" bg-[var(--bg-card-light)] text-[var(--theme-text-medium)]  rounded-md text-[12px] font-[400]">WHITE-LABEL</span>
                                     </div>
                                 </div>
@@ -238,29 +238,20 @@ export const ProductsPage = () => {
                                 <p className="text-[16px] text-[var(--theme-text-dark)] font-[500] mb-4">Your brand. Our technology.</p>
 
                                 <div className="flex flex-col gap-2 mb-5 bg-white p-3 ">
-                                    <p className="text-[18px] text-[var(--theme-text-dark)]  italic">शिक्षा का सेतु</p>
-                                    <p className="text-[15px] text-[var(--theme-text-medium)] italic">"Bridge to Education" Education Simplified</p>
+                                    <p className="text-[18px] text-[var(--color-primary)]  italic">शिक्षा का सेतु</p>
+                                    <p className="text-[15px] text-[var(--color-primary)] italic">"Bridge to Education" Education Simplified</p>
                                 </div>
 
                                 <p className="text-[16px] text-[var(--theme-text-medium)] leading-[1.4] mb-10 ">
-                                    Launch your own branded learning platform without building from scratch. 1LMS is a white-label solution that gives coaching centers, schools, and educators a professional LMS with your branding — powered by our battle-tested technology.                                </p>
+                                    Launch your own branded learning platform without building from scratch. 1LMS is a white-label solution that gives coaching centers, schools, and educators a professional LMS with your branding powered by our battle-tested technology.                                </p>
 
                                 {/* Download buttons */}
-                                {/* <div className="flex-buttons flex-wrap gap-3">
-
-                                    <Link target="_blank" to="https://play.google.com/store/apps/details?id=com.app.onepyq" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
-                                        <FaGooglePlay />
-                                        <span>Google Play</span>
-                                    </Link>
-                                    <Link target="_blank" to="https://apps.apple.com/in/app/1pyq/id6473720012?l=hi" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
-                                        <FaApple />
-                                        <span>App Store</span>
-                                    </Link>
-                                    <Link target="_blank" to="https://app.1pyq.com/app1/" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
-                                        <span>Try Web Version →</span>
+                                <div className="flex-buttons flex-wrap gap-3">
+                                    <Link to="/contact" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                        <span>Talk to our experts →</span>
                                     </Link>
 
-                                </div> */}
+                                </div>
                             </div>
                             {/* 
                             <div className='flex p-6 items-center justify-center w-1/2 grow-1'>
@@ -273,7 +264,7 @@ export const ProductsPage = () => {
                         {/* Features Grid */}
                         <div className="grid-4 mb-10 mt-10 ">
                             {[
-                                { icon: '/images/school.svg', title: 'AI Gap Analysis', desc: 'Coaching Centers' },
+                                { icon: '/images/school.svg', title: 'Gap Analysis', desc: 'Coaching Centers' },
                                 { icon: '/images/graduation-cap.svg', title: 'Spaced Repetition', desc: 'Schools & Colleges' },
                                 { icon: '/images/individual-tutor.svg', title: 'Progress Tracking', desc: 'Individual Tutors' },
                                 { icon: '/images/edtech-startup.svg', title: 'Offline Mode', desc: 'EdTech Startups' },
@@ -311,8 +302,8 @@ export const ProductsPage = () => {
 
                     <div id="1isl" className="mb-25 mt-[80px]">
 
-                        <div className=' w-full flex items-center justify-between rounded-[5px] '>
-                            <div className='bg-[var(--bg-card)] w-1/2 p-6 flex flex-col grow-1'>
+                        <div className=' w-full flex-column md:flex items-center justify-between rounded-[5px] '>
+                            <div className='bg-[var(--bg-card)] w-full md:w-1/2 p-6 flex flex-col grow-1'>
 
                                 <div className='flex items-end gap-4 mb-3'>
                                     <div className='w-[120px] flex items-center justify-center'>
@@ -323,7 +314,7 @@ export const ProductsPage = () => {
 
                                     </div>
                                     <div className="flex gap-3 flex-wrap">
-                                        <span className=" bg-[var(--bg-card-light)] text-[var(--theme-text-medium)]  rounded-md text-[12px] font-[400]">FREE</span>
+                                        <span className=" bg-[var(--bg-card-light)] text-[var(--color-primary)]  rounded-md text-[12px] font-[400]">FREE</span>
                                         <span className=" bg-[var(--bg-card-light)] text-[var(--theme-text-medium)]  rounded-md text-[12px] font-[400]">SOCIAL IMPACT</span>
                                     </div>
                                 </div>
@@ -332,13 +323,13 @@ export const ProductsPage = () => {
                                 <p className="text-[16px] text-[var(--theme-text-dark)] font-[500] mb-4">India's first ISL vocabulary learning app</p>
 
                                 <div className="flex flex-col gap-2 mb-5 bg-white p-3 ">
-                                    <p className="text-[18px] text-[var(--theme-text-dark)]  italic">सबकी भाषा, सबके लिए</p>
-                                    <p className="text-[15px] text-[var(--theme-text-medium)] italic">Sabki Bhasha, Sabke Liye</p>
-                                    <p className="text-[14px] text-[var(--theme-text-medium)]  italic">"Everyone's language, for everyone." Bridging the deaf and hearing worlds, together.</p>
+                                    <p className="text-[18px] text-[var(--color-primary)]  italic">सबकी भाषा, सबके लिए</p>
+                                    <p className="text-[15px] text-[var(--color-primary)] italic">Sabki Bhasha, Sabke Liye</p>
+                                    <p className="text-[14px] text-[var(--color-primary)]  italic">"Everyone's language, for everyone." Bridging the deaf and hearing worlds, together.</p>
                                 </div>
 
                                 <p className="text-[16px] text-[var(--theme-text-medium)] leading-[1.4] mb-10 ">
-                                    Indian Sign Language is used by over 5 million deaf Indians, yet resources to learn it are scarce. 1ISL Challenge makes sign language learning accessible to everyone — whether you're deaf, a family member, a teacher, or just curious.
+                                    Indian Sign Language is used by over 5 million deaf Indians, yet resources to learn it are scarce. 1ISL Challenge makes sign language learning accessible to everyone whether you're deaf, a family member, a teacher, or just curious.
                                 </p>
 
                                 {/* Download buttons */}
@@ -359,7 +350,7 @@ export const ProductsPage = () => {
                                 </div>
                             </div>
 
-                            <div className='flex p-6 items-center justify-center w-1/2 grow-1'>
+                            <div className='flex p-6 items-center justify-center w-full md:w-1/2 grow-1'>
                                 <img src="/images/1ISL-poster-3.webp" className='h-full w-full object-contain' alt="" />
                             </div>
 
@@ -385,7 +376,7 @@ export const ProductsPage = () => {
 
                         {/* Available languages */}
                         <div className=" mb-10 flex flex-col gap-3">
-                            <h3 className="text-[18px] font-[500] text-[var(--theme-text-dark)] ">Contact Available in 16 Indian Languages</h3>
+                            <h3 className="text-[18px] font-[500] text-[var(--theme-text-dark)] ">Content Available in 16 Indian Languages</h3>
                             <div className="flex gap-3 flex-wrap">
                                 {['Hindi', 'English', 'Tamil', 'Telugu', 'Kannada', 'Malayalam', 'Bengali', 'Marathi', 'Gujarati', 'Punjabi', 'Odia', 'Assamese', 'Urdu', 'Maithili', 'Sanskrit', 'Nepali'].map(exam => (
                                     <span key={exam} className="px-4 py-2 bg-[var(--bg-card)] rounded-full text-[14px] text-[var(--theme-text-medium)] ">{exam}</span>

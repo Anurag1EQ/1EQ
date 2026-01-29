@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const CTASection = () => (
     <section className=" font-sans relative overflow-hidden">
 
-        <div className="global-width global-border-page global-padding mx-auto text-center w-full px-6 flex flex-col min-h-[600px] justify-center items-center  relative">
+        <div className="global-width global-border-page global-padding global-padding-mobile  mx-auto text-center w-full px-6 flex flex-col min-h-[600px] justify-center items-center  relative">
 
 
             <p className='text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-[0.05em]'>Get Started</p>

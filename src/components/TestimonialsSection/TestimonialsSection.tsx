@@ -32,14 +32,14 @@ const users = [
 
 export const TestimonialsSection = () => (
     <section className="w-full">
-        <div className="global-width min-h-[600px] global-border-page global-padding w-full py-10 flex flex-col justify-center mx-auto">
+        <div className="global-width min-h-[600px] global-border-page global-padding global-padding-mobile  w-full py-10 flex flex-col justify-center mx-auto">
 
             {/* Heading */}
             <div className="text-center mb-[60px]">
                 <p className="text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-wide">
                     Testimonials
                 </p>
-                <h2 className="text-[51px] font-[400] font-lt-remark text-[var(--theme-black)] mt-6">
+                <h2 className="custom-h2 md-text-51  font-[400] font-lt-remark text-[var(--theme-black)] mt-6">
                     What people are saying
                 </h2>
             </div>

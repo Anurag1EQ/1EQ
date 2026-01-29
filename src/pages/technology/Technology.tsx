@@ -31,12 +31,12 @@ export const TechnologyPage = () => {
     return (
         <>
             <TechonologyHero />
-            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding">
+            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding global-padding-mobile ">
 
                 {/* Tech Stack Section */}
                 <div className="w-full mx-auto mb-10 py-7">
                     <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Our Tech Stack</h2>
-                    <p className="text-[51px] max-w-[1000px] mx-auto text-[var(--theme-text-dark)] font-[400] font-lt-remark leading-[1.3] mb-4 text-center">
+                    <p className="md-text-51 custom-h2  max-w-[1000px] mx-auto text-[var(--theme-text-dark)] font-[400] font-lt-remark   mb-4 text-center">
                         We choose technologies that are reliable, scalable, and have strong community support.
                     </p>
 
@@ -140,7 +140,7 @@ export const TechnologyPage = () => {
                 {/* What We Build */}
                 <div className="w-full mx-auto mt-10">
                     <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">What We Build</h2>
-                    <p className="text-[51px] font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center">
+                    <p className="md-text-51 custom-h2  font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center   ">
                         End-to-end product development across all major platforms.
                     </p>
 
@@ -168,7 +168,7 @@ export const TechnologyPage = () => {
                 {/* Our Expertise */}
                 <div className="w-full mx-auto mt-16">
                     <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Our Expertise</h2>
-                    <p className="text-[51px] max-w-[1000px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center">
+                    <p className="md-text-51 custom-h2  max-w-[1000px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center   ">
                         Beyond standard development, we specialize in solving India-specific challenges.
                     </p>
 
@@ -212,7 +212,7 @@ export const TechnologyPage = () => {
                 {/* Engineering Principles */}
                 <div className="w-full mx-auto mt-16">
                     <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">How We Engineer</h2>
-                    <p className="text-[51px] max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center">
+                    <p className="md-text-51 custom-h2 max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center   ">
                         Our engineering culture and principles that guide how we build.
                     </p>
 

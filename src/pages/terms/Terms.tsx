@@ -7,8 +7,8 @@ export const TermsPage = () => {
             <TermsHero />
             <section className="min-h-screen bg-white font-sans">
                 <div className="flex flex-col items-center justify-start w-full">
-                    <div className="global-width global-padding flex flex-col items-center  global-border-page w-full mx-auto">
-                        <div className="max-w-[700px] w-full   flex flex-col gap-[60px]" style={{padding:'44px 0 80px'}}>
+                    <div className="global-width global-padding global-padding-mobile  flex flex-col items-center  global-border-page w-full mx-auto">
+                        <div className="max-w-[700px] w-full   flex flex-col gap-[60px]" style={{ padding: '44px 0 80px' }}>
 
                             <div className="flex flex-col gap-4">
                                 <p className="content-text  ">
@@ -18,10 +18,10 @@ export const TermsPage = () => {
 
                             <div className="flex flex-col gap-4">
                                 <p className="heading-text font-semibold">
-                                  1. INTRODUCTION
+                                    1. INTRODUCTION
                                 </p>
                                 <p className="content-text  ">
-                                    Welcome to <a href="https://www.1pyq.com" className="font-semibold no-underline">www.1PYQ.com</a> (the "Website") 1PYQ App (the "Application") owned by 1EQ Edutech Pvt. Ltd., a company incorporated in India under the Companies Act, 2013, having its registered office at Unit No 412, OCUS Quantum, Sector 51, Gurgaon, ("Our", "Us", "We", "1PYQ", "1EQ", "Website", "Site") and its terms and conditions.
+                                    Welcome to <a href="https://www.1pyq.com" className="font-semibold no-underline">www.1PYQ.com</a> (the "Website") 1PYQ App (the "Application") owned by 1EQ Edutech Pvt. Ltd., a company incorporated in India under the Companies Act, 2013, having its registered office at Unit No 907, OCUS Quantum, Sector 51, Gurgaon, ("Our", "Us", "We", "1PYQ", "1EQ", "Website", "Site") and its terms and conditions.
                                 </p>
                                 <p className="content-text  ">
                                     We are a digital platform designed to provide users with access to a wide range of audiobooks related to various topics covered in the Staff Selection Commission (SSC) examinations. Following are the essential features of our services:
@@ -39,7 +39,7 @@ export const TermsPage = () => {
 
                             <div className="flex flex-col gap-4">
                                 <p className="heading-text font-semibold">
-                                   2. GENERAL TERMS/RATIFICATIONS
+                                    2. GENERAL TERMS/RATIFICATIONS
                                 </p>
                                 <p className="content-text  ">
                                     <span className="font-semibold">2.1</span> By accessing our website, <a href="https://www.1pyq.com" className="font-semibold no-underline">www.1PYQ.com</a> ("Website") and/or our app '1PYQ App' and/or Website and Apps together shall be referred to as "1PYQ Platform", you agree to be bound by the provisions of these Terms and Conditions.
@@ -72,7 +72,7 @@ export const TermsPage = () => {
 
                             <div className="flex flex-col gap-4">
                                 <p className="heading-text font-semibold">
-                                  3. SERVICE
+                                    3. SERVICE
                                 </p>
                                 <p className="content-text  ">
                                     1PYQ helps aspirants who are preparing for various competitive examinations including Staff Selection Commission Exams (SSC). The App provides users with Multiple ways of learning the content through PDF Books, Audio Books, Video Explanations and Practice Quizzes etc. This App is solely equipped to help the students practice the subjects and concepts using various features. <span className="heading-text font-semibold">This App, 1PYQ or the company, 1EQ Edutech Pvt Ltd are in no way affiliated to the Govt, neither do we claim to facilitate any Govt Services through any features of this App.</span>
@@ -81,7 +81,7 @@ export const TermsPage = () => {
 
                             <div className="flex flex-col gap-4">
                                 <p className="heading-text font-semibold">
-                                  4. ELIGIBILITY
+                                    4. ELIGIBILITY
                                 </p>
                                 <p className="content-text  ">
                                     By agreeing to these Terms of Use, you represent that you are legally competent to enter into an agreement and provide consent to these Terms of Use. You further represent that:
@@ -519,7 +519,7 @@ export const TermsPage = () => {
                                     Email Address: <a href="mailto:contact@1EQ.in" className="font-semibold no-underline">contact@1EQ.in</a>
                                 </p>
                                 <p className="content-text  ">
-                                    Office Address: 1EQ Edutech Pvt. Ltd, Unit No 412, OCUS Quantum, Sector 51, Gurgaon
+                                    Office Address: 1EQ Edutech Pvt. Ltd, Unit No 907, OCUS Quantum, Sector 51, Gurgaon
                                 </p>
                             </div>
 
@@ -540,7 +540,7 @@ export const TermsPage = () => {
                                     <span className="font-semibold">d. Contact Us:</span> If you have any questions about these Terms of Service, the practices of the platform, or your experience, you can contact us by emailing us at <a href="mailto:contact@1EQ.in" className="font-semibold no-underline">contact@1EQ.in</a> or by writing to us at:
                                 </p>
                                 <p className="content-text  ">
-                                    <span className="heading-text font-semibold">1EQ Edutech Pvt. Ltd</span>, Unit No 412, OCUS Quantum, Sector 51, Gurgaon
+                                    <span className="heading-text font-semibold">1EQ Edutech Pvt. Ltd</span>, Unit No 907, OCUS Quantum, Sector 51, Gurgaon
                                 </p>
                             </div>
 

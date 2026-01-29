@@ -7,36 +7,36 @@ export const AboutPage = () => {
     return (
         <>
             <AboutHero />
-            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding">
+            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding global-padding-mobile ">
 
                 {/* Story */}
-                <div className="w-full mx-auto mb-10 py-7">
-                    <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Our Story</h2>
-                    <p className="text-[28px] sm:text-[40px] md:text-[51px] max-w-[1000px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center leading-[1.3]">
+                <div className="w-full mx-auto md:mb-10 py-7">
+                    <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]  text-center">Our Story</h2>
+                    <p className="custom-h2 md-text-51  max-w-[1000px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center  ">
                         Building education technology that works for everyone
                     </p>
 
                     <div className="text-[15px] text-[var(--theme-text-medium)] leading-[1.6] max-w-[800px] mx-auto mb-16">
                         <p className="mb-4">1EQ Edutech started with a simple question: why does education technology work for some and not for others?</p>
-                        <p className="mb-4">We found that most EdTech is built for urban, English-speaking, premium-paying users. But India's real learners — the ones preparing for government exams in Tier 2 and Tier 3 cities, the ones who can't afford ₹999/month subscriptions — were being left behind.</p>
+                        <p className="mb-4">We found that most EdTech is built for urban, English-speaking, premium-paying users. But India's real learners the ones preparing for government exams in Tier 2 and Tier 3 cities, the ones who can't afford ₹999/month subscriptions were being left behind.</p>
                         <p>So we built differently. Today, 1EQ Edutech creates learning technology that's accessible, affordable, and effective.</p>
                     </div>
 
                     {/* Leadership Team */}
-                    <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Leadership</h2>
-                    <p className="text-[28px] sm:text-[40px] md:text-[51px] max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center leading-[1.3]">
+                    <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]   text-center">Leadership</h2>
+                    <p className="custom-h2 md-text-51  max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center  ">
                         Meet the team building 1EQ
                     </p>
 
                     <div className="grid-3 gap-4 mb-16">
                         {[
-                            { image: '/images/jt.jpeg', name: 'Founder Name', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jagadeesh-taluri/' },
-                            { image: '/images/richa.jpeg', name: 'Co-founder Name', role: 'Co-founder & COO', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.', url: 'https://www.linkedin.com/in/richa-singh-a62973218/' },
-                            { image: '/images/person-placeholder.svg', name: 'Tech Lead Name', role: 'Head of Engineering', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.', url: '#' }
+                            { image: '/images/jt-updated2.jpeg', name: 'Jagadeesh Taluri', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jagadeesh-taluri/' },
+                            { image: '/images/dhritiman.webp', name: 'Dhritiman Murti', role: 'Co-founder', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.', url: 'https://www.linkedin.com/in/dhritiman-murti-918646125/' },
+                            { image: '/images/richa.jpeg', name: 'Richa Singh', role: 'Co-founder', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.', url: 'https://www.linkedin.com/in/richa-singh-a62973218/' }
                         ].map(person => (
                             <div key={person.name} className="bg-[var(--bg-card)] gap-4 rounded-[5px] p-7 flex flex-col justify-between">
                                 <div>
-                                    <div className='rounded-full border bg-[var(--bg-card)] mb-3 w-[90px] overflow-hidden shrink-0 aspect-square'>
+                                    <div className='rounded-full border bg-[var(--bg-card)] mb-3 w-[90px] overflow-hidden shrink-0 aspect-square grayscale'>
                                         <img src={person.image} className='h-full w-full object-cover' alt="" />
                                     </div>
                                     <h4 className="text-[18px] font-[500] text-[var(--theme-text-dark)] mb-1">{person.name}</h4>

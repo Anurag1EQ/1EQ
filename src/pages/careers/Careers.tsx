@@ -5,12 +5,12 @@ export const CareersPage = () => {
     return (
         <>
             <CareersHero />
-            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding">
+            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding global-padding-mobile ">
 
                 {/* Why Join Us */}
                 <div className="w-full mx-auto mb-10 py-7">
-                    <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Why join 1EQ?</h2>
-                    <p className="text-[51px] max-w-[900px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center leading-[1.3]">
+                    <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]  text-center">Why join 1EQ?</h2>
+                    <p className="custom-h2 md-text-51  max-w-[900px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center    ">
                         Build products that millions of students use
                     </p>
 
@@ -30,8 +30,8 @@ export const CareersPage = () => {
                     </div>
 
                     {/* Open Positions */}
-                    <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Open Positions</h2>
-                    <p className="text-[51px] max-w-[900px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-6 text-center leading-[1.3]">
+                    <h2 className="text-[16px] leading-[1.4] font-[600]font-[400] text-[var(--theme-text-dark)]   text-center">Open Positions</h2>
+                    <p className="custom-h2 md-text-51  max-w-[900px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-6 text-center     ">
                         Join our team
                     </p>
                     <p className="text-[15px] text-[var(--theme-text-medium)] mb-10 text-center max-w-[700px] mx-auto">
@@ -124,8 +124,8 @@ export const CareersPage = () => {
 
                     {/* Hiring Process */}
                     <div className="mb-10 max-w-[600px] mx-auto">
-                        <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Our Hiring Process</h2>
-                        <p className="text-[51px] max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center leading-[1.3]">
+                        <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]   text-center">Our Hiring Process</h2>
+                        <p className="custom-h2 md-text-51  max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center   ">
                             How we hire
                         </p>
 

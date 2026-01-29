@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 
 export const ProductsSection = () => (
     <section className="  bg-[var(--color-bg)] ">
-        <div className="global-width global-padding py-10 global-border-page w-full mx-auto">
+        <div className="global-width lg:global-padding global-padding-mobile  py-10 global-border-page w-full mx-auto">
             <div className="text-center mb-[60px]">
                 <p className='text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-[0.05em]'>Our Products</p>
-                <h2 className="text-[51px] font-[400] font-lt-remark text-center text-[var(--thene-black)] mt-6 ">
+                <h2 className="custom-h2 md-text-51 font-[400] font-lt-remark text-center text-[var(--thene-black)] mt-6 ">
                     Technology built for how India learns
                 </h2>
             </div>
 
             {/* Featured Product - 1PYQ */}
-            <div className=" product-section mb-8 flex  ">
+            <div className="product-mobile   mb-8 lg:flex bg-[var(--bg-card)]">
 
-                <div className='  bg-[var(--bg-card)]  w-1/2  p-8 flex flex-col justify-center '>
+                <div className='mobile-w-100  lg:w-1/2  p-8 flex flex-col justify-center '>
                     <div className="flex gap-3 mb-5 items-center">
                         <span className="text-[var(--theme-black)] text-xs font-semibold">FLAGSHIP</span>
                         <span className="bg-[var(--color-bg-hover)] text-[var(--color-text-muted)] px-3.5 py-1.5 rounded-md text-xs border border-[var(--color-border)]">B2C</span>
@@ -43,7 +43,7 @@ export const ProductsSection = () => (
                     <Link to="/products" className='px-[18px] w-max  hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Learn More →</Link>
                 </div>
 
-                <div className="  p-8  rounded-[6px] w-1/2  flex items-center justify-center " >
+                <div className="mobile-w-100  p-8  rounded-[6px] lg:w-1/2  flex items-center justify-center " >
                     <div className="w-[320px] flex items-center justify-center"
                         style={{ filter: 'drop-shadow(#afafaf96 0 0 20px);' }}>
                         <img

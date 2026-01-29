@@ -7,19 +7,19 @@ export const PrivacyPage = () => {
             <PrivacyHero />
             <section className="min-h-screen bg-white font-sans">
                 <div className="flex flex-col items-center justify-start w-full">
-                    <div className="global-width global-padding flex flex-col items-center   global-border-page w-full mx-auto">
-                        <div className="max-w-[700px] w-full  flex flex-col gap-[60px]" style={{padding:'44px 0 80px'}}>
+                    <div className="global-width global-padding global-padding-mobile  flex flex-col items-center   global-border-page w-full mx-auto">
+                        <div className="max-w-[700px] w-full  flex flex-col gap-[20px] md:gap-[60px]" style={{ padding: '44px 0 80px' }}>
 
                             <div className="flex flex-col  ">
-                                 
-                                <p className="heading-text font-semibold">
+
+                                <p className="md-text-51 custom-h2 heading-text font-semibold ">
                                     Welcome to 1EQ Edutech's Privacy Policy
                                 </p>
                             </div>
 
                             <div className="flex flex-col gap-4">
                                 <p className="content-text  ">
-                                    The creator of this policy, <a href="https://www.1pyq.com" className="font-semibold no-underline">www.1PYQ.com</a> (the "Website") <a href="https://play.google.com/store/apps/details?id=com.app.onepyq" className="font-semibold no-underline">1PYQ App</a>, Android app with package name "com.app.onepyq" owned by 1EQ Edutech Pvt. Ltd., a company incorporated in India under the Companies Act, 2013, having its registered office at Unit No 412, OCUS Quantum, Sector 51, Gurgaon, ("Our", "Us", "We", "1PYQ", "1EQ", "Website", "Site") ensures a steady commitment to your privacy with regard to the protection of your invaluable information that you may share across this Website. This privacy policy contains information about the Website.
+                                    The creator of this policy, <a href="https://www.1pyq.com" className="font-semibold no-underline">www.1PYQ.com</a> (the "Website") <a href="https://play.google.com/store/apps/details?id=com.app.onepyq" className="font-semibold no-underline">1PYQ App</a>, Android app with package name "com.app.onepyq" owned by 1EQ Edutech Pvt. Ltd., a company incorporated in India under the Companies Act, 2013, having its registered office at Unit No 907, OCUS Quantum, Sector 51, Gurgaon, ("Our", "Us", "We", "1PYQ", "1EQ", "Website", "Site") ensures a steady commitment to your privacy with regard to the protection of your invaluable information that you may share across this Website. This privacy policy contains information about the Website.
                                 </p>
                                 <p className="content-text  ">
                                     The expressions "You", "Your" or "User", whenever the context so requires, for the purposes of this Privacy Policy, shall mean any natural or legal person who may create by registration, membership account on this Website and/or Application or agree to avail Our Services through this Website and/or Application, or otherwise access Our Website and/or Application.
