@@ -10,7 +10,7 @@ export const HomeHero = () => (
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
                 <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>EdTech Product Studio • Since 2022</p>
-                    <p className='text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Learning technology for <span className='font-lt-remark text-[var(--color-primary)]'>underserved India</span></p>
+                    <p className='text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Learning technology for <span className='font-lt-remark text-[var(--color-primary)]'>under-served India</span></p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5] max-w-[350px]'>From our own products to custom platforms we design, build, and ship EdTech that works.</p>
                     <div className='flex gap-[19px] mt-[12px]'>
                         <Link to="/products" className='px-[18px] hover:bg-[var(--button-hover)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none'>View Products</Link>
