@@ -15,10 +15,10 @@ export const Footer = () => {
                     <img src="/images/background-img.avif" alt="" className="w-full h-full object-cover block bg-center" />
                 </div>
 
-                <div className='h-full w-full flex flex-col relative justify-between text-white pt-[60px] px-[36px] gap-3 pb-[36px] '>
-                    <div className='flex flex-col gap-[24px] max-w-[520px]'>
+                <div className='h-full w-full flex flex-col relative justify-between text-white pt-8 md:pt-[60px] px-4 md:px-[36px] gap-3 pb-6 md:pb-[36px]'>
+                    <div className='flex flex-col gap-4 md:gap-[24px] max-w-[520px]'>
                         <p className='text-[16px] text-[var(--text-light)]'>GET STARTED</p>
-                        <p className='text-[52px] text-[var(--text-light)] font-[400] font-lt-remark leading-[1.1]'>Ready to build something that matters?</p>
+                        <p className='text-[28px] sm:text-[36px] md:text-[52px] text-[var(--text-light)] font-[400] font-lt-remark leading-[1.1]'>Ready to build something that matters?</p>
                         <p className='text-[16px] text-[var(--text-medium)] leading-[1.5]'>We partner with organizations that share our mission to make education accessible for all.</p>
                         <div className='flex gap-[19px] mt-[12px]'>
                             <Link to="/contact" className='px-[18px] hover:bg-[var(--button-hover)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none'>Get in touch</Link>
@@ -77,9 +77,9 @@ export const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="border-t border-[var(--color-border-dark)] pt-6 flex justify-between items-center flex-wrap gap-4">
-                            <p className="text-[14px] text-[var(--text-medium)]">© 2021–2026 1EQ Edutech Pvt. Ltd.</p>
-                            <div className="flex gap-[15px]">
+                        <div className="border-t border-[var(--color-border-dark)] pt-6 flex flex-col sm:flex-row justify-between items-center flex-wrap gap-4">
+                            <p className="text-[14px] text-[var(--text-medium)] text-center sm:text-left">© 2021–2026 1EQ Edutech Pvt. Ltd.</p>
+                            <div className="flex flex-wrap justify-center sm:justify-end gap-2 sm:gap-[15px]">
                                 <Link to="/privacy_policy" className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">Privacy Policy</Link>
                                 <Link to="/terms_of_service" className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">Terms of Service</Link>
                                 <Link to="/refund_policy" className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors">Refund Policy</Link>

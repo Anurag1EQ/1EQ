@@ -12,9 +12,9 @@ export const ProductsSection = () => (
             </div>
 
             {/* Featured Product - 1PYQ */}
-            <div className=" mb-8 flex ">
+            <div className=" product-section mb-8 flex  ">
 
-                <div className='bg-[var(--bg-card)]  w-1/2  p-8 flex flex-col justify-center '>
+                <div className='  bg-[var(--bg-card)]  w-1/2  p-8 flex flex-col justify-center '>
                     <div className="flex gap-3 mb-5 items-center">
                         <span className="text-[var(--theme-black)] text-xs font-semibold">FLAGSHIP</span>
                         <span className="bg-[var(--color-bg-hover)] text-[var(--color-text-muted)] px-3.5 py-1.5 rounded-md text-xs border border-[var(--color-border)]">B2C</span>
@@ -43,7 +43,7 @@ export const ProductsSection = () => (
                     <Link to="/products" className='px-[18px] w-max  hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Learn More →</Link>
                 </div>
 
-                <div className=" p-8  rounded-[6px] w-1/2  flex items-center justify-center " >
+                <div className="  p-8  rounded-[6px] w-1/2  flex items-center justify-center " >
                     <div className="w-[320px] flex items-center justify-center"
                         style={{ filter: 'drop-shadow(#afafaf96 0 0 20px);' }}>
                         <img

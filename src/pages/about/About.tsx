@@ -12,7 +12,7 @@ export const AboutPage = () => {
                 {/* Story */}
                 <div className="w-full mx-auto mb-10 py-7">
                     <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Our Story</h2>
-                    <p className="text-[51px] max-w-[1000px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center leading-[1.3]">
+                    <p className="text-[28px] sm:text-[40px] md:text-[51px] max-w-[1000px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center leading-[1.3]">
                         Building education technology that works for everyone
                     </p>
 
@@ -24,7 +24,7 @@ export const AboutPage = () => {
 
                     {/* Leadership Team */}
                     <h2 className="text-[19px] font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Leadership</h2>
-                    <p className="text-[51px] max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center leading-[1.3]">
+                    <p className="text-[28px] sm:text-[40px] md:text-[51px] max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center leading-[1.3]">
                         Meet the team building 1EQ
                     </p>
 
@@ -76,7 +76,7 @@ export const AboutPage = () => {
                     {/* Company Information */}
                     <div className="p-7 bg-[var(--bg-card)] rounded-[5px] mb-10">
                         <h3 className="text-[18px] font-[500] text-[var(--theme-text-dark)] mb-4">Company Information</h3>
-                        <div className="grid grid-cols-2 gap-3 text-[14px]">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-[14px]">
                             <div><span className="text-[var(--theme-text-medium)]">Registered Name:</span> <span className="text-[var(--theme-text-dark)]">1EQ Edutech Private Limited</span></div>
                             <div><span className="text-[var(--theme-text-medium)]">Founded:</span> <span className="text-[var(--theme-text-dark)]">December 2021</span></div>
                             <div><span className="text-[var(--theme-text-medium)]">CIN:</span> <span className="text-[var(--theme-text-dark)]">U72200KA2021PTC156100</span></div>
