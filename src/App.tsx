@@ -28,7 +28,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <div className="bg-[var(--color-bg)] ">
+      <div className="bg-[var(--color-bg)]  ">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<ProductsPage />} />

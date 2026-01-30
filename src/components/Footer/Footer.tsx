@@ -9,7 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
-     <footer className='h-full  lg:global-height w-full    relative bg-[#0a1017]'>
+     <footer className='h-full lg:h-[calc(100vh-10px)] lg:global-height w-full relative bg-[#0a1017]'>
       <div className="relative h-full w-full global-width mx-auto border-l-[1px] border-[var(--border-light)] border-r-[1px]">
         <div className="image-wrapper absolute h-[60%]  flex items-center w-full top-0 left-0 ">
           <img
@@ -32,13 +32,13 @@ export const Footer = () => {
             <div className="flex gap-[19px] mt-[12px]">
               <Link
                 to="/contact"
-                className="px-[18px] hover:bg-[var(--button-hover)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none"
+                className="px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px]  hover:bg-[var(--button-hover)] duration-300  font-[500] cursor-pointer text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none"
               >
                 Get in touch
               </Link>
               <Link
                 to="/about"
-                className="px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--button-dark)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]"
+                className="px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px]  hover:bg-[var(--border-medium)] duration-300  font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--button-dark)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]"
               >
                 About us
               </Link>
@@ -98,14 +98,14 @@ export const Footer = () => {
               </div>
 
               <div>
-                <h4 className="text-[var(--text-light)] text-[18px] font-semibold mb-5 uppercase tracking-[0.5px]">
+                <h4 className="text-[var(--text-light)] text-[14px] sm:text-[16px] md:text-[18px] font-semibold mb-2 md:mb-5 uppercase tracking-[0.5px]">
                   Products
                 </h4>
                 {["1PYQ", "1LMS", "1ISL Challenge"].map((item) => (
                   <Link
                     to="/products"
                     key={item}
-                    className="block text-left w-full text-[var(--text-medium)] text-[16px] mb-1 md:mb-3 cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
+                    className="block text-left w-full text-[var(--text-medium)]  text-[14px] md:text-[16px] mb-2 md:mb-3 cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
                   >
                     {item}
                   </Link>
@@ -113,7 +113,7 @@ export const Footer = () => {
               </div>
 
               <div>
-                <h4 className="text-[var(--text-light)] text-[18px] font-semibold mb-1 md:mb-5 uppercase tracking-[0.5px]">
+                <h4 className="text-[var(--text-light)] text-[14px] sm:text-[16px] md:text-[18px] font-semibold mb-2 md:mb-5 uppercase tracking-[0.5px]">
                   Company
                 </h4>
                 {[
@@ -125,7 +125,7 @@ export const Footer = () => {
                   <Link
                     to={"/" + item.page}
                     key={item.label}
-                    className="block text-left w-full text-[var(--text-medium)] text-[16px] mb-3 cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
+                    className="block text-left w-full text-[var(--text-medium)]  text-[14px] md:text-[16px] mb-2 md:mb-3 cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -133,33 +133,37 @@ export const Footer = () => {
               </div>
 
               <div>
-                <h4 className="text-[var(--text-light)]  text-[18px] font-semibold mb-5 uppercase tracking-[0.5px]">
+                <h4 className="text-[var(--text-light)] text-[14px] sm:text-[16px] md:text-[18px] font-semibold mb-2 md:mb-5 uppercase tracking-[0.5px]">
                   Contact
                 </h4>
+                
+
+          
                 <a
                   href="mailto:contact@1eq.in"
-                  className="text-[var(--text-medium)] no-underline flex items-center gap-2 cursor-pointer hover:text-[var(--text-light)] transition-colors text-[16px] mb-2"
+                  className="text-[var(--text-medium)] no-underline flex items-center gap-2 cursor-pointer hover:text-[var(--text-light)] transition-colors  text-[14px] md:text-[16px]  mb-2"
                 >
                   <MdAlternateEmail /> contact@1eq.in
                 </a>
-                <p className="text-[var(--text-medium)] flex items-center gap-2  text-[16px] mb-2">
+                <p className="text-[var(--text-medium)] flex items-center gap-2   text-[14px] md:text-[16px]  mb-2">
                   <FaPhoneAlt /> +91 9885115063
                 </p>
                 <a
                   href="https://maps.app.goo.gl/nbrnoRPg9SzF6x5V9"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[var(--text-medium)] no-underline flex items-start gap-2 cursor-pointer hover:text-[var(--text-light)] transition-colors text-[16px] leading-[1.5]"
+                  className="text-[var(--text-medium)] no-underline flex items-start gap-2 cursor-pointer hover:text-[var(--text-light)] transition-colors text-[14px] md:text-[16px] leading-[1.5]"
                 >
                   <FaLocationDot className="mt-1" /> 907, OCUS Quantum
                   <br />
                   Sector 51, Gurgaon
                 </a>
               </div>
+                     
             </div>
 
             <div className="border-t border-[var(--color-border-dark)] pt-2 md:pt-6 flex justify-between items-center flex-wrap gap-2 md:gap-4">
-              <p className="text-[14px] text-[var(--text-medium)]">
+              <p className=" text-[12px]  md:text-[14px] text-[var(--text-medium)]">
                 © 2022–2026 1EQ Edutech Pvt. Ltd.
               </p>
               <div className="flex gap-[15px]">

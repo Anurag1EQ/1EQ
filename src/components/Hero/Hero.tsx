@@ -8,13 +8,13 @@ export const HomeHero = () => (
         <Navigation />
         <div className='hero-inner h-100 mobile-screen bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[10px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>EdTech Product Studio • Since 2022</p>
-                    <p className='hero-title-main text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Learning technology for <span className='font-lt-remark text-[var(--color-primary)]'>underserved India</span></p>
+                <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>EdTech Product Studio • Since 2022</p>
+                    <p className='  text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Learning technology for <span className='font-lt-remark text-[var(--color-primary)]'>under-served India</span></p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5] max-w-[350px]'>From our own products to custom platforms we design, build, and ship EdTech that works.</p>
                     <div className='flex gap-[19px] mt-[12px]'>
-                        <Link to="/products" className='px-[18px] hover:bg-[var(--button-hover)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none'>View Products</Link>
-                        <Link to="/services" className='px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--button-dark)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Our Services</Link>
+                        <Link to="/products" className='px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px] hover:bg-[var(--button-hover)] duration-300    font-[500] cursor-pointer text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none'>View Products</Link>
+                        <Link to="/services" className='px-[12px]  sm:px-[14px] md:px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[6px]  sm:py-[8px] md:py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--button-dark)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Our Services</Link>
                     </div>
                 </div>
 
@@ -47,9 +47,9 @@ export const ProductsHero = () => (
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Our Products</p>
-                    <p className=' hero-title-main md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Technology built for how India learns</p>
+             <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Our Products</p>
+                    <p className=' text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Technology built for how India learns</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>From AI-powered exam prep to accessible learning tools, products designed for real Indian learners.</p>
 
                 </div>
@@ -65,9 +65,9 @@ export const ServicesHero = () => (
 
         <div className='hero-inner mobile-screen bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Our Services</p>
-                    <p className='hero-title-main md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Custom technology for impact</p>
+                <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Our Services</p>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Custom technology for impact</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Technology solutions for organizations building impact.</p>
 
                 </div>
@@ -84,9 +84,9 @@ export const TechonologyHero = () => (
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Technology</p>
-                    <p className='hero-title-main md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Built with modern, battle-tested tech</p>
+              <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Technology</p>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px]   text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Built with modern, battle-tested tech</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Our in-house team of 20+ engineers uses industry-standard technologies to build scalable, accessible, and reliable products.</p>
 
                 </div>
@@ -101,9 +101,9 @@ export const BlogHero = () => (
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Blog & Resources</p>
-                    <p className='hero-title-main md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Insights & Resources</p>
+            <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Blog & Resources</p>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Insights & Resources</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Thoughts on EdTech, accessibility, and building technology for underserved India.</p>
 
                 </div>
@@ -119,9 +119,9 @@ export const AboutHero = () => (
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>About Us</p>
-                    <p className='hero-title-main  md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Building technology for how India learns</p>
+              <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center  font-lt-remark'>About Us</p>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px]text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Building technology for how India learns</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Since 2022, we've been making education accessible.</p>
 
                 </div>
@@ -137,9 +137,9 @@ export const CareersHero = () => (
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>We're Hiring</p>
-                    <p className='hero-title-main  md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Build technology that matters</p>
+              <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>We're Hiring</p>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Build technology that matters</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Join a team that's making education accessible for millions of Indians. We're looking for people who care about impact, not just code.</p>
 
                 </div>
@@ -155,9 +155,9 @@ export const ContactHero = () => (
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[26px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Contact</p>
-                    <p className='hero-title-main  md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Get in Touch</p>
+               <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center  font-lt-remark'>Contact</p>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Get in Touch</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Have a question or partnership idea? We'd love to hear from you.</p>
 
                 </div>
@@ -167,13 +167,15 @@ export const ContactHero = () => (
 
 );
 export const PrivacyHero = () => (
-    <section className='h-[calc(100vh-250px)]w-full bg-[#0a1015] component-hero relative'>
+    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
         <Navigation />
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='hero-title-main  md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Privacy Policy</p>
+               <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    
+                  
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px]text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Privacy Policy</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Last updated: January 2026</p>
 
                 </div>
@@ -189,8 +191,8 @@ export const TermsHero = () => (
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='hero-title-main  md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Terms of Service</p>
+                <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Terms of Service</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Last updated: January 2026</p>
 
                 </div>
@@ -203,8 +205,8 @@ export const ShippingHero = () => (
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='hero-title-main  md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Shipping Policy</p>
+                <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px]text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Shipping Policy</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Last updated: January 2026</p>
 
                 </div>
@@ -218,8 +220,8 @@ export const RefundHero = () => (
 
         <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
-                <div className='flex flex-col gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='hero-title-main  md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Refund Policy</p>
+                <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Refund Policy</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Last updated: January 2026</p>
 
                 </div>

@@ -11,10 +11,13 @@ export const AboutPage = () => {
 
                 {/* Story */}
                 <div className="w-full mx-auto md:mb-10 py-7">
+                    <div className='flex flex-col gap-[24px]'>
+
                     <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]  text-center">Our Story</h2>
                     <p className="custom-h2 md-text-51  max-w-[1000px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center  ">
                         Building education technology that works for everyone
                     </p>
+                    </div>
 
                     <div className="text-[15px] text-[var(--theme-text-medium)] leading-[1.6] max-w-[800px] mx-auto mb-16">
                         <p className="mb-4">1EQ Edutech started with a simple question: why does education technology work for some and not for others?</p>
@@ -23,10 +26,13 @@ export const AboutPage = () => {
                     </div>
 
                     {/* Leadership Team */}
+                    <div className='flex flex-col gap-[24px]'>
+
                     <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]   text-center">Leadership</h2>
                     <p className="custom-h2 md-text-51  max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center  ">
                         Meet the team building 1EQ
                     </p>
+                    </div>
 
                     <div className="grid-3 gap-4 mb-16">
                         {[

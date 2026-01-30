@@ -4,10 +4,8 @@
 }
 
 /* Mobile menu below nav; nav height ~64px (py-4) on mobile */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .mobile-menu.open {
-    position: absolute;
-    padding-top: 110px;
-    /* top: 110px; */
+  
   }
-}
+} */

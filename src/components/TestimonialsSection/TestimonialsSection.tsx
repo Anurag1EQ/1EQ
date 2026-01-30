@@ -35,7 +35,7 @@ export const TestimonialsSection = () => (
         <div className="global-width min-h-[600px] global-border-page global-padding global-padding-mobile  w-full py-10 flex flex-col justify-center mx-auto">
 
             {/* Heading */}
-            <div className="text-center mb-[60px]">
+            <div className="text-center md:mb-[60px] flex flex-col gap-[24px]"> 
                 <p className="text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-wide">
                     Testimonials
                 </p>

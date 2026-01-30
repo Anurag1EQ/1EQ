@@ -1,7 +1,7 @@
 /* Hero responsive overrides */
 
 /* Tablet and below */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .hero-inner {
     padding-left: 20px;
     padding-right: 20px;
@@ -9,7 +9,18 @@
   }
 
   .hero-title-main {
-    font-size: 40px;
+    font-size: 63px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-attachment: scroll;
+  }
+
+  .hero-title-main {
+    font-size: 53px;
   }
 }
 
@@ -22,11 +33,13 @@
   .hero-inner {
     padding-left: 16px;
     padding-right: 16px;
+    position: absolute;
+    top: 0;
   }
 }
 
 /* Extra small */
-@media (min-width: 480px) {
+@media (max-width: 480px) {
   .hero-title-main {
     font-size: 38px;
   }

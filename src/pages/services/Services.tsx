@@ -41,8 +41,8 @@ export const ServicesPage = () => {
                             </div>
                         </div>
 
-                        <div className="flex-column flex items-center  md:justify-start justify-center gap-4 p-5 bg-white rounded-[5px]">
-                            <div className='   '>
+                        <div className="flex-col gap-[20px] flex items-center  md:justify-start justify-center md:gap-4 p-5 bg-white rounded-[5px]">
+                            <div className='  '>
                                 <div className="text-[13px] text-[var(--theme-text-medium)] mb-1">The offer</div>
                                 <div className="text-[16px] text-[var(--theme-text-dark)] font-[500]">30-minute call. No pitch, no strings.</div>
                             </div>

@@ -9,10 +9,13 @@ export const CareersPage = () => {
 
                 {/* Why Join Us */}
                 <div className="w-full mx-auto mb-10 py-7">
+                    <div className='flex flex-col gap-[24px]'>
+
                     <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]  text-center">Why join 1EQ?</h2>
                     <p className="custom-h2 md-text-51  max-w-[900px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center    ">
                         Build products that millions of students use
                     </p>
+                    </div>
 
                     <div className="grid-4 gap-3 mb-16">
                         {[
@@ -30,10 +33,13 @@ export const CareersPage = () => {
                     </div>
 
                     {/* Open Positions */}
+                    <div className='flex flex-col gap-[24px]'>
+
                     <h2 className="text-[16px] leading-[1.4] font-[600]font-[400] text-[var(--theme-text-dark)]   text-center">Open Positions</h2>
                     <p className="custom-h2 md-text-51  max-w-[900px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-6 text-center     ">
                         Join our team
                     </p>
+                    </div>
                     <p className="text-[15px] text-[var(--theme-text-medium)] mb-10 text-center max-w-[700px] mx-auto">
                         Don't see a perfect fit? We're always looking for exceptional people. Send your resume to <span className="text-[var(--theme-text-dark)] font-[500]">hr@1eq.in</span>
                     </p>
@@ -124,10 +130,13 @@ export const CareersPage = () => {
 
                     {/* Hiring Process */}
                     <div className="mb-10 max-w-[600px] mx-auto">
+                        <div className='flex flex-col gap-[24px]'>
+
                         <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]   text-center">Our Hiring Process</h2>
                         <p className="custom-h2 md-text-51  max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center   ">
                             How we hire
                         </p>
+                        </div>
 
                         <div className="flex flex-col gap-0">
                             {[

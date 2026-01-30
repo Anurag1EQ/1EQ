@@ -265,7 +265,7 @@ export const ContactPage = () => {
 
                                         <form onSubmit={handleSubmit}>
                                             {/* Name and Email Row */}
-                                            <div className="grid text-[var(--theme-text-medium)] grid-cols-2 gap-5 mb-5">
+                                            <div className="grid text-[var(--theme-text-medium)] md:grid-cols-2 md:gap-5 md:mb-5">
                                                 <div>
                                                     <label className="block text-sm font-medium 
                                             text-[var(--theme-text-medium)] mb-2">Your name</label>
@@ -294,7 +294,7 @@ export const ContactPage = () => {
                                             </div>
 
                                             {/* Phone and Subject Row */}
-                                            <div className="grid text-[var(--theme-text-medium)] grid-cols-2 gap-5 mb-5">
+                                            <div className="grid text-[var(--theme-text-medium)] md:grid-cols-2 md:gap-5 md:mb-5">
                                                 <div>
                                                     <label className="block text-sm font-medium  mb-2">Phone number</label>
                                                     <input
@@ -323,7 +323,7 @@ export const ContactPage = () => {
 
                                             {/* Message */}
                                             <div className="mb-6 text-[var(--theme-text-medium)]">
-                                                <label className="block text-sm font-medium mb-2">Your message</label>
+                                                <label className="block text-sm font-medium md:mb-2">Your message</label>
                                                 <textarea
                                                     name="message"
                                                     value={formData.message}

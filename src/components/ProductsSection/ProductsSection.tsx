@@ -5,10 +5,13 @@ export const ProductsSection = () => (
     <section className="  bg-[var(--color-bg)] ">
         <div className="global-width lg:global-padding global-padding-mobile  py-10 global-border-page w-full mx-auto">
             <div className="text-center mb-[60px]">
+                <div className='flex flex-col gap-[24px]'>
+
                 <p className='text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-[0.05em]'>Our Products</p>
-                <h2 className="custom-h2 md-text-51 font-[400] font-lt-remark text-center text-[var(--thene-black)] mt-6 ">
+                <h2 className="custom-h2 md-text-51 font-[400] font-lt-remark text-center text-[var(--thene-black)]   ">
                     Technology built for how India learns
                 </h2>
+                </div>
             </div>
 
             {/* Featured Product - 1PYQ */}

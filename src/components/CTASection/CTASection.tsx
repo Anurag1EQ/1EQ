@@ -6,11 +6,13 @@ export const CTASection = () => (
 
         <div className="global-width global-border-page global-padding global-padding-mobile  mx-auto text-center w-full px-6 flex flex-col min-h-[600px] justify-center items-center  relative">
 
+<div className='flex flex-col gap-[24px]'>
 
             <p className='text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-[0.05em]'>Get Started</p>
             <h2 className="text-[51px] font-[400] font-lt-remark text-center text-[var(--thene-black)] mt-6 ">
                 Ready to build something that matters?
             </h2>
+</div>
             <p className="text-[16px] text-[var(--theme-text-medium))] mb-10">
                 We partner with organizations that share our mission to make education accessible for all.
             </p>
