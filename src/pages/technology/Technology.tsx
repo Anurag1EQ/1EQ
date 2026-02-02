@@ -26,12 +26,14 @@ import { SiGooglecloud } from "react-icons/si";
 import { IoLogoGithub } from "react-icons/io";
 import { FaDocker } from "react-icons/fa";
 import { FaAngular } from "react-icons/fa";
+import {FaBootstrap} from "react-icons/fa";
+
 
 export const TechnologyPage = () => {
     return (
         <>
             <TechonologyHero />
-            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding global-padding-mobile ">
+            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding  ">
 
                 {/* Tech Stack Section */}
                 <div className="w-full mx-auto mb-10 py-7">
@@ -70,6 +72,7 @@ export const TechnologyPage = () => {
                                 { name: 'React Native', icon: <TbBrandReactNative /> },
                                 { name: 'Next.js', icon: <SiNextdotjs /> },
                                 { name: 'Tailwind CSS', icon: <RiTailwindCssFill /> },
+                                { name: 'Bootstrap', icon: <FaBootstrap /> },
                                 { name: 'Redux', icon: <TbBrandRedux /> }
                             ].map(tech => (
                                 <span key={tech.name} className="px-4 py-2 bg-[var(--bg-card)] rounded-full text-[14px] text-[var(--theme-text-medium)] flex items-center gap-2">

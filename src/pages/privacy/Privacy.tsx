@@ -7,12 +7,12 @@ export const PrivacyPage = () => {
             <PrivacyHero />
             <section className="min-h-screen bg-white font-sans">
                 <div className="flex flex-col items-center justify-start w-full">
-                    <div className="global-width global-padding global-padding-mobile  flex flex-col items-center   global-border-page w-full mx-auto">
+                    <div className="global-width global-padding  flex flex-col items-center   global-border-page w-full mx-auto">
                         <div className="max-w-[700px] w-full  flex flex-col gap-[44px] md:gap-[60px]" style={{ padding: '44px 0 80px' }}>
 
                             <div className="flex flex-col  ">
 
-                                <p className="md-text-51 custom-h2 heading-text font-semibold ">
+                                <p className="text-[14px]  md:text-[16px] heading-text font-semibold ">
                                     Welcome to 1EQ Edutech's Privacy Policy
                                 </p>
                             </div>

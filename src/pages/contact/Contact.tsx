@@ -165,8 +165,8 @@ export const ContactPage = () => {
             <ContactHero />
             <section className=" flex items-center justify-center bg-white  font-['DM_Sans']  ">
                 <div className="flex flex-col items-center justify-center w-full">
-                    <div className="global-width min-h-[650px] global-padding-mobile md:h-[calc(100vh-60px)]  flex flex-col items-center  justify-center  global-border-page w-full mx-auto" >
-                        <div className='   md:px-[36px]  py-[36px]  w-full flex flex-col'>
+                    <div className="global-width h-full lg:min-h-[650px]   global-padding     flex flex-col items-center  justify-center  global-border-page w-full mx-auto" >
+                        <div className='    py-[25px] sm:py-[60px]  md:py-[120px]    w-full md:h-full lg:h-auto flex flex-col md:flex-row'>
 
 
                             {/* Light Content */}
@@ -355,8 +355,8 @@ export const ContactPage = () => {
                                             )}
 
                                             {/* Terms Text */}
-                                            <div className="mt-4 text-decoration-none  text-[var(--theme-text-light)] font-semibold text-[16px] text-center">
-                                                <p className="  ">
+                                            <div className="mt-4 text-decoration-none  text-[var(--theme-text-light)] font-semibold text-[12px] sm:text-[14px] md:text-[16px]  text-center">
+                                                <p className=" leading-[1.3] ">
                                                     By sending this form, you agree to our{' '}
                                                     <Link to="/terms_of_service" rel="noopener noreferrer" className="text-[var(--theme-text-medium)]   underline">
                                                         Terms of Service

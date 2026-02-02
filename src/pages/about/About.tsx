@@ -7,14 +7,15 @@ export const AboutPage = () => {
     return (
         <>
             <AboutHero />
-            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding global-padding-mobile ">
+            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto 
+                 global-padding  ">
 
                 {/* Story */}
                 <div className="w-full mx-auto md:mb-10 py-7">
                     <div className='flex flex-col gap-[24px]'>
 
-                    <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]  text-center">Our Story</h2>
-                    <p className="custom-h2 md-text-51  max-w-[1000px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center  ">
+                    <h2 className="text-[16px] leading-[1.4]   font-[400] text-[var(--theme-text-dark)]  text-center">Our Story</h2>
+                    <p className="custom-h2 md-text-51  max-w-[767px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center  ">
                         Building education technology that works for everyone
                     </p>
                     </div>
@@ -28,7 +29,7 @@ export const AboutPage = () => {
                     {/* Leadership Team */}
                     <div className='flex flex-col gap-[24px]'>
 
-                    <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]   text-center">Leadership</h2>
+                    <h2 className="text-[16px] leading-[1.4]   font-[400] text-[var(--theme-text-dark)]   text-center">Leadership</h2>
                     <p className="custom-h2 md-text-51  max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center  ">
                         Meet the team building 1EQ
                     </p>
@@ -36,24 +37,24 @@ export const AboutPage = () => {
 
                     <div className="grid-3 gap-4 mb-16">
                         {[
-                            { image: '/images/jt-updated2.jpeg', name: 'Jagadeesh Taluri', role: 'Founder & CEO', desc: 'Non-tech founder who built a 20+ person tech team from scratch. Passionate about making education accessible.', url: 'https://www.linkedin.com/in/jagadeesh-taluri/' },
-                            { image: '/images/dhritiman.webp', name: 'Dhritiman Murti', role: 'Co-founder', desc: 'Leads our in-house tech team. Architect behind 1PYQ and our accessibility-first approach.', url: 'https://www.linkedin.com/in/dhritiman-murti-918646125/' },
-                            { image: '/images/richa.jpeg', name: 'Richa Singh', role: 'Co-founder', desc: 'Operations and partnerships. Ensures our products reach the learners who need them most.', url: 'https://www.linkedin.com/in/richa-singh-a62973218/' }
+                            { image: '/images/jt-updated2.jpeg', name: 'Jagadeesh Taluri', role: 'Founder & CEO', desc: 'Jagadeesh Taluri is a founder with a rare blend of vision and execution. With a background in architecture and law, he has built and led multiple  technology platforms, translating complex ideas into scalable, real-world impact.', url: 'https://www.linkedin.com/in/jagadeesh-taluri/' },
+                            { image: '/images/dhritiman.webp', name: 'Dhritiman Murti', role: 'Co-founder', desc: 'Dhritiman Murti is the Co-founder of 1EQ, where he leads the in-house technology team and drives the company’s accessibility-first engineering vision. He has served as a director and key tech leader across multiple ventures, bringing strategic insight to product development.', url: 'https://www.linkedin.com/in/dhritiman-murti-918646125/' },
+                            { image: '/images/richa.jpeg', name: 'Richa Singh', role: 'Co-founder', desc: 'Richa Singh is the Co-founder of 1EQ, responsible for operations, partnerships, and institutional execution. With a legal background and 6+ years of experience, she anchors the strategy, compliance, and day-to-day functioning of the organization.', url: 'https://www.linkedin.com/in/richa-singh-a62973218/' }
                         ].map(person => (
-                            <div key={person.name} className="bg-[var(--bg-card)] gap-4 rounded-[5px] p-7 flex flex-col justify-between">
+                            <div key={person.name} className="bg-[var(--bg-card)] gap-4 rounded-[5px]    p-3 sm:p-5  md:p-7 flex flex-col justify-between">
                                 <div>
                                     <div className='rounded-full border bg-[var(--bg-card)] mb-3 w-[90px] overflow-hidden shrink-0 aspect-square grayscale'>
                                         <img src={person.image} className='h-full w-full object-cover' alt="" />
                                     </div>
                                     <h4 className="text-[18px] font-[500] text-[var(--theme-text-dark)] mb-1">{person.name}</h4>
-                                    <p className="text-[13px] font-[500] text-[var(--theme-text-medium)] font-[400] mb-2">{person.role}</p>
+                                    <p className="text-[13px]   text-[var(--theme-text-medium)] font-[400] mb-2">{person.role}</p>
                                     <p className="text-[14px] text-[var(--theme-text-medium)] leading-[1.6] ">{person.desc}</p>
 
                                 </div>
                                 <Link
                                     target="_blank"
                                     to={person.url}
-                                    className="px-[18px] hover:bg-[var(--border-medium)] gap-2 flex items-center justify-center duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px] whitespace-nowrap no-underline">
+                                    className=" px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px] hover:bg-[var(--border-medium)] gap-2 flex items-center justify-center duration-300   font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px] whitespace-nowrap no-underline">
                                     <FaLinkedin className='text-[25px]' />
                                     Connect On LinkedIn
                                 </Link>
@@ -102,7 +103,7 @@ export const AboutPage = () => {
                         </div>
                         <Link
                             to='/careers'
-                            className="px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px] whitespace-nowrap no-underline">
+                            className="px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px] hover:bg-[var(--border-medium)] duration-300   font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px] whitespace-nowrap no-underline">
                             View Open Positions →
                         </Link>
                     </div>

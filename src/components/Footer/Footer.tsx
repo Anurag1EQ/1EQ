@@ -9,7 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
-     <footer className='h-full lg:h-[calc(100vh-10px)] lg:global-height w-full relative bg-[#0a1017]'>
+     <footer className='  h-full md:h-[calc(100vh-10px)]  global-height w-full relative bg-[#0a1017]'>
       <div className="relative h-full w-full global-width mx-auto border-l-[1px] border-[var(--border-light)] border-r-[1px]">
         <div className="image-wrapper absolute h-[60%]  flex items-center w-full top-0 left-0 ">
           <img
@@ -32,13 +32,13 @@ export const Footer = () => {
             <div className="flex gap-[19px] mt-[12px]">
               <Link
                 to="/contact"
-                className="px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px]  hover:bg-[var(--button-hover)] duration-300  font-[500] cursor-pointer text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none"
+                className="flex  justify-center items-center w-max px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px]  hover:bg-[var(--button-hover)] duration-300  font-[500] cursor-pointer text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none"
               >
                 Get in touch
               </Link>
               <Link
                 to="/about"
-                className="px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px]  hover:bg-[var(--border-medium)] duration-300  font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--button-dark)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]"
+                className="flex justify-center items-center w-max px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px]  hover:bg-[var(--border-medium)] duration-300  font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--button-dark)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]"
               >
                 About us
               </Link>
@@ -166,28 +166,28 @@ export const Footer = () => {
               <p className=" text-[12px]  md:text-[14px] text-[var(--text-medium)]">
                 © 2022–2026 1EQ Edutech Pvt. Ltd.
               </p>
-              <div className="flex gap-[15px]">
+              <div className="flex  gap-[15px]">
                 <Link
                   to="/privacy_policy"
-                  className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
+                  className="text-[10px] sm:text-[12px] md:text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
                 >
                   Privacy Policy
                 </Link>
                 <Link
                   to="/terms_of_service"
-                  className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
+                  className="text-[10px] sm:text-[12px] md:text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
                 >
                   Terms of Service
                 </Link>
                 <Link
                   to="/refund_policy"
-                  className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
+                  className="text-[10px] sm:text-[12px] md:text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
                 >
                   Refund Policy
                 </Link>
                 <Link
                   to="/shipping_policy"
-                  className="text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
+                  className="text-[10px] sm:text-[12px] md:text-[14px] text-[var(--text-medium)] cursor-pointer bg-transparent border-none hover:text-[var(--text-light)] transition-colors"
                 >
                   Shipping Policy
                 </Link>

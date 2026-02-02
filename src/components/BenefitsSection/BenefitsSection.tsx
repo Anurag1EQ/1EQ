@@ -2,12 +2,14 @@ import './BenefitsSection.css';
 
 export const BenefitsSection = () => (
     <section className="w-full">
-        <div className="global-width global-border-page mx-auto global-padding global-padding-mobile  py-[60px]">
-            <div className="text-center md:mb-[60px] flex flex-col gap-[24px]"> 
-                <p className='text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-[0.05em]'>Why 1EQ</p>
-                <h2 className="custom-h2 md-text-51 font-[400] font-lt-remark text-center text-[var(--thene-black)] md:mt-6 ">
-                    We're not a generic dev shop
-                </h2>
+        <div className="global-width global-border-page mx-auto global-padding   py-[60px]">
+            <div className="text-center mb-4 sm:mb-8 md:mb-[60px] flex flex-col gap-3 sm:gap-[18px] md:gap-[24px]">
+                <p className='text-sm sm:text-base md:text-lg uppercase font-semibold text-[var(--theme-black)] tracking-wide'>
+  Why 1EQ
+</p>
+<h2 className="custom-h2 text-2xl sm:text-3xl md:text-[51px] font-normal font-lt-remark text-center text-[var(--theme-black)] ">
+  We're not a generic dev shop
+</h2>
             </div>
 
             <div className="grid-3 gap-6">

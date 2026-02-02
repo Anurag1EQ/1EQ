@@ -5,13 +5,13 @@ export const CareersPage = () => {
     return (
         <>
             <CareersHero />
-            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding global-padding-mobile ">
+            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto      global-padding ">
 
                 {/* Why Join Us */}
-                <div className="w-full mx-auto mb-10 py-7">
+                <div className="w-full mx-auto md:mb-10 py-7">
                     <div className='flex flex-col gap-[24px]'>
 
-                    <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]  text-center">Why join 1EQ?</h2>
+                    <h2 className="text-[16px] leading-[1.4]   font-[400] text-[var(--theme-text-dark)]  text-center">Why join 1EQ?</h2>
                     <p className="custom-h2 md-text-51  max-w-[900px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center    ">
                         Build products that millions of students use
                     </p>
@@ -35,7 +35,7 @@ export const CareersPage = () => {
                     {/* Open Positions */}
                     <div className='flex flex-col gap-[24px]'>
 
-                    <h2 className="text-[16px] leading-[1.4] font-[600]font-[400] text-[var(--theme-text-dark)]   text-center">Open Positions</h2>
+                    <h2 className=" text-[14px] sm:text-[16px] md:text-[19px] leading-[1.4]   font-[400]font-[400] text-[var(--theme-text-dark)]   text-center">Open Positions</h2>
                     <p className="custom-h2 md-text-51  max-w-[900px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-6 text-center     ">
                         Join our team
                     </p>
@@ -132,7 +132,7 @@ export const CareersPage = () => {
                     <div className="mb-10 max-w-[600px] mx-auto">
                         <div className='flex flex-col gap-[24px]'>
 
-                        <h2 className="text-[16px] leading-[1.4] font-[600] text-[var(--theme-text-dark)]   text-center">Our Hiring Process</h2>
+                        <h2 className="text-[14px] sm:text-[16px] md:text-[19px] leading-[1.4]   font-[400] text-[var(--theme-text-dark)]   text-center">Our Hiring Process</h2>
                         <p className="custom-h2 md-text-51  max-w-[800px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center   ">
                             How we hire
                         </p>

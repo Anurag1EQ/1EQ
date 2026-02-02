@@ -35,7 +35,7 @@ export const NotFoundPage = () => {
                                 {/* Back to Home Button */}
                                 <Link
                                     to="/"
-                                    className="inline-block px-[24px] hover:bg-[var(--border-medium)] duration-300 py-[14px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px] whitespace-nowrap no-underline"
+                                    className="inline-block px-[16px] sm:px-[20px] md:px-[24px] hover:bg-[var(--border-medium)] duration-300 py-[10px] sm:py-[12px] md:py-[14px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px] whitespace-nowrap no-underline"
                                 >
                                     Back to Home →
                                 </Link>

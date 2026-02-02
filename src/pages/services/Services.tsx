@@ -7,10 +7,10 @@ export const ServicesPage = () => {
     return (
         <>
             <ServicesHero />
-            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto global-padding-mobile global-padding ">
+            <section className="min-h-screen bg-white global-width py-10 global-border-page mx-auto  global-padding  ">
 
                 {/* Non-Tech Founders Section */}
-                <div className="w-full mx-auto mb-10 py-7">
+                <div className="w-full mx-auto md:mb-10 py-7">
                     <div className="bg-[var(--bg-card)]  w-full rounded-[5px] p-7 mb-10 global-padding-mobile">
                         <span className="inline-block bg-[var(--bg-card-light)] text-[var(--theme-text-medium)]  py-1.5 rounded-md text-[12px] font-[400] mb-4">FREE ADVISORY</span>
 
@@ -41,14 +41,14 @@ export const ServicesPage = () => {
                             </div>
                         </div>
 
-                        <div className="flex-col gap-[20px] flex items-center  md:justify-start justify-center md:gap-4 p-5 bg-white rounded-[5px]">
+                        <div className="flex-col gap-[20px] md:flex-row flex items-center  md:justify-start justify-center md:gap-4 p-5 bg-white rounded-[5px]">
                             <div className='  '>
                                 <div className="text-[13px] text-[var(--theme-text-medium)] mb-1">The offer</div>
                                 <div className="text-[16px] text-[var(--theme-text-dark)] font-[500]">30-minute call. No pitch, no strings.</div>
                             </div>
                             <div className='  '> 
 
-                            <Link target='_blank' to="https://calendly.com/jt-1eq/30min" className="px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px] whitespace-nowrap">Book a Free Call</Link>
+                            <Link target='_blank' to="https://calendly.com/jt-1eq/30min" className="flex justify-center items-center  px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px] whitespace-nowrap">Book a Free Call</Link>
                             </div>
                         </div>
                     </div>

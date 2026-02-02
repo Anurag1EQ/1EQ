@@ -3,15 +3,16 @@ import { Link } from 'react-router-dom';
 
 export const ProductsSection = () => (
     <section className="  bg-[var(--color-bg)] ">
-        <div className="global-width lg:global-padding global-padding-mobile  py-10 global-border-page w-full mx-auto">
-            <div className="text-center mb-[60px]">
-                <div className='flex flex-col gap-[24px]'>
+        <div className="global-width global-padding py-10 global-border-page w-full mx-auto">
 
-                <p className='text-[16px] uppercase font-[600] text-[var(--theme-black)] tracking-[0.05em]'>Our Products</p>
-                <h2 className="custom-h2 md-text-51 font-[400] font-lt-remark text-center text-[var(--thene-black)]   ">
+
+            <div className="text-center mb-4 sm:mb-8 md:mb-[60px] flex flex-col gap-3 sm:gap-[18px] md:gap-[24px]">
+                <p className='text-sm sm:text-base md:text-lg uppercase font-semibold text-[var(--theme-black)] tracking-wide'>
+                    Our Products
+                </p>
+                <h2 className="custom-h2 text-2xl sm:text-3xl md:text-[51px] font-normal font-lt-remark text-center text-[var(--theme-black)] ">
                     Technology built for how India learns
                 </h2>
-                </div>
             </div>
 
             {/* Featured Product - 1PYQ */}
@@ -43,11 +44,11 @@ export const ProductsSection = () => (
                             </div>
                         ))}
                     </div>
-                    <Link to="/products" className='px-[18px] w-max  hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Learn More →</Link>
+                    <Link to="/products" className='px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px] w-max  hover:bg-[var(--border-medium)] duration-300   font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Learn More →</Link>
                 </div>
 
                 <div className="mobile-w-100  p-8  rounded-[6px] lg:w-1/2  flex items-center justify-center " >
-                    <div className="w-[320px] flex items-center justify-center"
+                    <div className=" w-[200px] sm:w-[250px] md:w-[320px] flex items-center justify-center"
                         style={{ filter: 'drop-shadow(#afafaf96 0 0 20px);' }}>
                         <img
                             src="/images/1pyq-poster.webp"
@@ -72,9 +73,10 @@ export const ProductsSection = () => (
             </div>
 
             <div className="text-center">
-                <Link to="/products" className='px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>View All Products →</Link>
+                <Link to="/products" className='flex m-auto justify-center items-center w-max px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px] hover:bg-[var(--border-medium)] duration-300  font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>View All Products →</Link>
 
             </div>
+            
         </div>
     </section>
 );

@@ -4,17 +4,17 @@ import { LogoMarquee } from '../LogoMarquee/LogoMarquee';
 import { Navigation } from '../Navigation/Navigation';
 
 export const HomeHero = () => (
-    <section className='mobile-screen h-[100dvh]   w-full bg-[#0a1015] lg:global-hero relative'>
+    <section className='mobile-screen h-[100dvh]   w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
-        <div className='hero-inner h-100 mobile-screen bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[10px] pt-0'>
+        <div className='  ios-bg bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed   px-[36px] py-[10px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
                 <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>EdTech Product Studio • Since 2022</p>
-                    <p className='  text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Learning technology for <span className='font-lt-remark text-[var(--color-primary)]'>under-served India</span></p>
-                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5] max-w-[350px]'>From our own products to custom platforms we design, build, and ship EdTech that works.</p>
+                    <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Tech Product Studio • Since 2022</p>
+                    <p className='  text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Learning technology for <br /><span className='font-lt-remark text-[var(--color-primary)]'>under-served India</span></p>
+                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5] max-w-[350px]'>From our own products to custom platforms we design, build, and ship Tech that works.</p>
                     <div className='flex gap-[19px] mt-[12px]'>
-                        <Link to="/products" className='px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px] hover:bg-[var(--button-hover)] duration-300    font-[500] cursor-pointer text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none'>View Products</Link>
-                        <Link to="/services" className='px-[12px]  sm:px-[14px] md:px-[18px] hover:bg-[var(--border-medium)] duration-300 py-[6px]  sm:py-[8px] md:py-[12px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--button-dark)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Our Services</Link>
+                        <Link to="/products" className='flex m-auto justify-center items-center w-max  px-[16px]  py-[12px] hover:bg-[var(--button-hover)] duration-300    font-[500] cursor-pointer text-[12px]  sm:text-[16px] text-[var(--text-dark)] bg-[var(--button-light)] outline-none border-none'>View Products</Link>
+                        <Link to="/services" className ='flex m-auto justify-center items-center w-max px-[16px]  py-[12px] hover:bg-[var(--border-medium)] duration-300  font-[500] cursor-pointer text-[12px]  sm:text-[16px] text-[var(--text-light)] bg-[var(--button-dark)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>Our Services</Link>
                     </div>
                 </div>
 
@@ -42,15 +42,15 @@ export const HomeHero = () => (
 );
 
 export const ProductsHero = () => (
-    <section className='   h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className='    h-[74vh] w-full bg-[#0a1015] global-hero  relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className=' ios-bg bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
              <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Our Products</p>
-                    <p className=' text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Technology built for how India learns</p>
-                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>From AI-powered exam prep to accessible learning tools, products designed for real Indian learners.</p>
+                    <p className=' text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Technology built for scale, access, and impact</p>
+                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>From scalable platforms to inclusive digital tools, <br />our products are built to work in the real world.</p>
 
                 </div>
             </div>
@@ -59,11 +59,12 @@ export const ProductsHero = () => (
     </section>
 
 );
+
 export const ServicesHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className=' h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner mobile-screen bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='  ios-bg bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
                 <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Our Services</p>
@@ -79,10 +80,10 @@ export const ServicesHero = () => (
 );
 
 export const TechonologyHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className=' h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='ios-bg  bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
               <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Technology</p>
@@ -96,10 +97,10 @@ export const TechonologyHero = () => (
 );
 
 export const BlogHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className=' h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className=' ios-bg bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
             <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>Blog & Resources</p>
@@ -114,14 +115,14 @@ export const BlogHero = () => (
 );
 
 export const AboutHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className=' h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className=' ios-bg bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
               <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center  font-lt-remark'>About Us</p>
-                    <p className='text-[35px] sm:text-[53px] md:text-[63px]text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Building technology for how India learns</p>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Building technology for how India learns</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Since 2022, we've been making education accessible.</p>
 
                 </div>
@@ -132,15 +133,15 @@ export const AboutHero = () => (
 );
 
 export const CareersHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className=' h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className=' ios-bg bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
               <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center font-lt-remark'>We're Hiring</p>
                     <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Build technology that matters</p>
-                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Join a team that's making education accessible for millions of Indians. We're looking for people who care about impact, not just code.</p>
+                    <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Join a team that's making tech accessible for millions of Indians. <br />We're looking for people who care about impact, not just code.</p>
 
                 </div>
             </div>
@@ -150,10 +151,10 @@ export const CareersHero = () => (
 );
 
 export const ContactHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className=' h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className=' ios-bg bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
                <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[12px] sm:text-[14px] md:text-[16px] text-[var(--text-light)] tracking-[0.05em] text-center  font-lt-remark'>Contact</p>
@@ -166,16 +167,17 @@ export const ContactHero = () => (
     </section>
 
 );
+
 export const PrivacyHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className='h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className=' ios-bg bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
                <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     
                   
-                    <p className='text-[35px] sm:text-[53px] md:text-[63px]text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Privacy Policy</p>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Privacy Policy</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Last updated: January 2026</p>
 
                 </div>
@@ -186,10 +188,10 @@ export const PrivacyHero = () => (
 );
 
 export const TermsHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className='h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className=' ios-bg bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
                 <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Terms of Service</p>
@@ -200,13 +202,13 @@ export const TermsHero = () => (
         </div>
     </section>)
 export const ShippingHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className='h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='ios-bg  bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
                 <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
-                    <p className='text-[35px] sm:text-[53px] md:text-[63px]text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Shipping Policy</p>
+                    <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Shipping Policy</p>
                     <p className='text-[16px] text-[var(--text-medium)] text-center leading-[1.5]'>Last updated: January 2026</p>
 
                 </div>
@@ -215,10 +217,10 @@ export const ShippingHero = () => (
     </section>
 )
 export const RefundHero = () => (
-    <section className='h-[calc(100vh-250px)] w-full bg-[#0a1015] component-hero relative'>
+    <section className='h-[74vh] w-full bg-[#0a1015] global-hero relative'>
         <Navigation />
 
-        <div className='hero-inner bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
+        <div className='ios-bg  bg-[url(/images/background-img.avif)] mx-auto global-border h-full w-full global-width bg-cover flex flex-col justify-end items-center bg-center bg-no-repeat bg-fixed px-[36px] py-[36px] pt-0'>
             <div className='flex flex-col w-full justify-between items-center gap-[20px]'>
                 <div className='flex flex-col gap-[12px] sm:gap-[16px] md:gap-[20px] items-center justify-center max-w-[650px]'>
                     <p className='text-[35px] sm:text-[53px] md:text-[63px] text-[var(--text-light)] text-center font-[400] font-lt-remark leading-[1.1]'>Refund Policy</p>

@@ -1,11 +1,3 @@
-/* Navigation component specific styles */
 .nav-items-active.active {
   color: var(--text-light);
 }
-
-/* Mobile menu below nav; nav height ~64px (py-4) on mobile */
-/* @media (max-width: 576px) {
-  .mobile-menu.open {
-  
-  }
-} */

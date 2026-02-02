@@ -9,7 +9,7 @@ export const ProductsPage = () => {
     return (
         <>
             <ProductsHero />
-            <section className="min-h-screen bg-white global-width py-10  global-border-page mx-auto global-padding global-padding-mobile ">
+            <section className="min-h-screen bg-white global-width py-10  global-border-page mx-auto  global-padding  ">
 
                 <div className="w-full mx-auto mb-10 py-7">
                     <h2 className="md-text-51 custom-h2 font-lt-remark font-[400] text-[var(--theme-text-dark)] mb-6 text-center">Which product is right for you?</h2>
@@ -33,8 +33,8 @@ export const ProductsPage = () => {
                     {/* ========== 1PYQ SECTION ========== */}
                     <div id="1pyq" className="mb-25">
 
-                        <div className=' w-full flex-column md:flex items-center justify-between rounded-[5px] '>
-                            <div className='bg-[var(--bg-card)] w-full lg:w-1/2 p-6 flex flex-col grow-1'>
+                        <div className="product-mobile   mb-8 lg:flex ">
+                            <div className='bg-[var(--bg-card)] w-full lg:w-1/2 p-4 flex flex-col grow-1'>
 
                                 <div className='flex items-end gap-4 mb-3'>
                                     <div className='w-[120px] flex items-center justify-center'>
@@ -63,25 +63,29 @@ export const ProductsPage = () => {
                                 </p>
 
                                 {/* Download buttons */}
-                                <div className="flex-buttons flex-wrap gap-3">
+                                <div className="flex-buttons flex-wrap gap-1">
 
-                                    <Link target="_blank" to="https://play.google.com/store/apps/details?id=com.app.onepyq" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    <Link target="_blank" to="https://play.google.com/store/apps/details?id=com.app.onepyq" className='px-[10px]  sm:px-[12px] md:px-[12px] py-[6px]  sm:py-[8px] md:py-[10px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300   font-[500] cursor-pointer text-[13px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <FaGooglePlay />
                                         <span>Google Play</span>
                                     </Link>
-                                    <Link target="_blank" to="https://apps.apple.com/in/app/1pyq/id6473720012?l" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    <Link target="_blank" to="https://apps.apple.com/in/app/1pyq/id6473720012?l" className='px-[10px]  sm:px-[12px] md:px-[12px] py-[6px]  sm:py-[8px] md:py-[10px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300   font-[500] cursor-pointer text-[13px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <FaApple />
                                         <span>App Store</span>
                                     </Link>
-                                    <Link target="_blank" to="https://app.1pyq.com/app1/" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    <Link target="_blank" to="https://app.1pyq.com/app1/" className='px-[10px]  sm:px-[12px] md:px-[12px] py-[6px]  sm:py-[8px] md:py-[10px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300   font-[500] cursor-pointer text-[13px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <span>Try Web Version →</span>
                                     </Link>
 
                                 </div>
                             </div>
 
-                            <div className='flex p-6 items-center justify-center w-full lg:w-1/2 grow-1'>
+                           <div className="mobile-w-100  p-4  rounded-[6px] lg:w-1/2  flex items-center justify-center " >
+                    <div className=" w-[300px] sm:w-[350px] md:w-[520px] flex items-center justify-center"
+                        style={{ filter: 'drop-shadow(#afafaf96 0 0 20px);' }}>
+
                                 <img src="/images/1pyq-poster-3.webp" className='h-full w-full object-contain' alt="" />
+                            </div>
                             </div>
 
                         </div>
@@ -247,7 +251,7 @@ export const ProductsPage = () => {
 
                                 {/* Download buttons */}
                                 <div className="flex-buttons flex-wrap gap-3">
-                                    <Link to="/contact" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    <Link to="/contact" className='px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300   font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <span>Talk to our experts →</span>
                                     </Link>
 
@@ -302,8 +306,8 @@ export const ProductsPage = () => {
 
                     <div id="1isl" className="mb-25 mt-[80px]">
 
-                        <div className=' w-full flex-column md:flex items-center justify-between rounded-[5px] '>
-                            <div className='bg-[var(--bg-card)] w-full md:w-1/2 p-6 flex flex-col grow-1'>
+                        <div className=' <div className="product-mobile   mb-8 lg:flex "> '>
+                            <div className='bg-[var(--bg-card)] w-full lg:w-1/2 p-6 flex flex-col grow-1'>
 
                                 <div className='flex items-end gap-4 mb-3'>
                                     <div className='w-[120px] flex items-center justify-center'>
@@ -335,11 +339,11 @@ export const ProductsPage = () => {
                                 {/* Download buttons */}
                                 <div className="flex-buttons flex-wrap gap-3">
 
-                                    <Link target="_blank" to="https://play.google.com/store/apps/details?id=com.oneislchallenge&hl" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    <Link target="_blank" to="https://play.google.com/store/apps/details?id=com.oneislchallenge&hl" className='px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300   font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <FaGooglePlay />
                                         <span>Google Play</span>
                                     </Link>
-                                    <Link target="_blank" to="https://apps.apple.com/in/app/1isl-challenge/id6742008806" className='px-[18px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300 py-[8px] font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
+                                    <Link target="_blank" to="https://apps.apple.com/in/app/1isl-challenge/id6742008806" className=' px-[12px]  sm:px-[14px] md:px-[18px] py-[6px]  sm:py-[8px] md:py-[12px] rounded-[6px] gap-2 flex items-center justify-center hover:bg-[var(--border-medium)] duration-300  font-[500] cursor-pointer text-[16px] text-[var(--text-light)] bg-[var(--theme-black)] outline-none border border-[var(--border-medium)] backdrop-blur-[4px]'>
                                         <FaApple />
                                         <span>App Store</span>
                                     </Link>
@@ -350,8 +354,11 @@ export const ProductsPage = () => {
                                 </div>
                             </div>
 
-                            <div className='flex p-6 items-center justify-center w-full md:w-1/2 grow-1'>
+                            <div className="mobile-w-100  p-8  rounded-[6px] lg:w-1/2  flex items-center justify-center " >
+                    <div className=" w-[300px] sm:w-[350px] md:w-[520px] flex items-center justify-center"
+                        style={{ filter: 'drop-shadow(#afafaf96 0 0 20px);' }}>
                                 <img src="/images/1ISL-poster-3.webp" className='h-full w-full object-contain' alt="" />
+                            </div>
                             </div>
 
                         </div>
