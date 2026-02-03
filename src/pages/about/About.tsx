@@ -14,7 +14,7 @@ export const AboutPage = () => {
                 <div className="w-full mx-auto md:mb-10 py-7">
                     <div className='flex flex-col gap-[24px]'>
 
-                    <h2 className="text-[16px] leading-[1.4]   font-[400] text-[var(--theme-text-dark)]  text-center">Our Story</h2>
+                    <h2 className="text-[19px] leading-[1.4]   font-[400] text-[var(--theme-text-dark)]  text-center">Our Story</h2>
                     <p className="custom-h2 md-text-51  max-w-[767px] mx-auto font-lt-remark text-[var(--theme-text-dark)] font-[400] mb-10 text-center  ">
                         Building education technology that works for everyone
                     </p>
